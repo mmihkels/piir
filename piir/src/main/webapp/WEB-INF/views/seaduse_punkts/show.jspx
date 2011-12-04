@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT" object="${seaduse_punkt}" path="/seaduse_punkts" z="emLm1bKHWSl2DStGWKnKvwZKW6k=">
+        <field:display field="paragrahv" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_paragrahv" object="${seaduse_punkt}" z="0NzAdjRcbJs5xAGfBt4z3wZ93U4="/>
+        <field:display field="pais" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_pais" object="${seaduse_punkt}" z="qYJt01zM8jYGTbdksOhoiSnxuj0="/>
+        <field:display field="tekst" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_tekst" object="${seaduse_punkt}" z="SDv9eTsVeSv9BYUqZS8vH8jLMmw="/>
+        <field:display field="kehtiv_alates" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_kehtiv_alates" object="${seaduse_punkt}" z="WR/QAx1zj8ciKJskocXDaa9kv24="/>
+        <field:display field="kehtiv_kuni" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_kehtiv_kuni" object="${seaduse_punkt}" z="Rg42pQcCkEV6Fl3xfDMDtTdWQh0="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_kommentaar" object="${seaduse_punkt}" z="oneySfYTa7R9arJxfGiFzrNxc/c="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_avaja" object="${seaduse_punkt}" z="5jczvmjNRYAMXoTJGHbQmicFfro="/>
+        <field:display date="true" dateTimePattern="${SEADUSE_PUNKT_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_avatud" object="${seaduse_punkt}" z="gnXyVQcIvMfHVAw2D2OQnVRWM8w="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_muutja" object="${seaduse_punkt}" z="Lc/nA2uqGlYjv5Ld4ewW1iur8SY="/>
+        <field:display date="true" dateTimePattern="${SEADUSE_PUNKT_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_muudetud" object="${seaduse_punkt}" z="UGcon5exuD4C9h4QHPfuDlNtY1c="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_sulgeja" object="${seaduse_punkt}" z="hda41jlhWQQDJitrFHb3EOuLQVg="/>
+        <field:display date="true" dateTimePattern="${SEADUSE_PUNKT_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_suletud" object="${seaduse_punkt}" z="Rh4WWEQ9bnw+YnWIk0REQY45UDs="/>
+        <field:display field="SEADUS" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_sEADUS" object="${seaduse_punkt}" z="z1tou+qHYU1RaDcH5ZK4LH/zmPw="/>
+        <field:display field="SEADUSE_PUNKT" id="s_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_sEADUSE_PUNKT" object="${seaduse_punkt}" z="M+HqgkKLv4y8sLeIZkUYtkeRH2k="/>
+    </page:show>
+</div>

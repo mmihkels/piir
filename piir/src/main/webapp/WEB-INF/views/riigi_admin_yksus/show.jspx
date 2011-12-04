@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS" object="${riigi_admin_yksus}" path="/riigi_admin_yksus" z="tSoBK5cERn98vahE+oq5kZyqb5c=">
+        <field:display field="nimetus" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_nimetus" object="${riigi_admin_yksus}" z="0PGkyswSWNXm9XrNpDvj6WjbhSo="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_kommentaar" object="${riigi_admin_yksus}" z="+wXpteLcDHlaOX7VGojgX0RChog="/>
+        <field:display date="true" dateTimePattern="${RIIGI_ADMIN_YKSUS_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_alates" object="${riigi_admin_yksus}" z="nfLQKE/YHtPZOJIUjfoOUWpsf5Q="/>
+        <field:display date="true" dateTimePattern="${RIIGI_ADMIN_YKSUS_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_kuni" object="${riigi_admin_yksus}" z="gkmTbdAZxoKH2ro8tG0R8bjDgQg="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_avaja" object="${riigi_admin_yksus}" z="JMsygYqFthNA4QLBPOwdbVE19ZQ="/>
+        <field:display date="true" dateTimePattern="${RIIGI_ADMIN_YKSUS_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_avatud" object="${riigi_admin_yksus}" z="OOou+m8xTwTSUBWd9yQcI+5Yud4="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_muutja" object="${riigi_admin_yksus}" z="J64yTJ6pLi7Nre1hxycRP08uQBA="/>
+        <field:display date="true" dateTimePattern="${RIIGI_ADMIN_YKSUS_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_muudetud" object="${riigi_admin_yksus}" z="B9UkEIAttH2eDJO2GYCz3Po3fs4="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_sulgeja" object="${riigi_admin_yksus}" z="wgAH43hMrzfh5N/8MvhR5g72j/g="/>
+        <field:display date="true" dateTimePattern="${RIIGI_ADMIN_YKSUS_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_suletud" object="${riigi_admin_yksus}" z="SBaFGMDysSmgmuguULS2ANrM43c="/>
+        <field:display field="RIIGI_ADMIN_YKSUSE_LIIK" id="s_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUS_rIIGI_ADMIN_YKSUSE_LIIK" object="${riigi_admin_yksus}" z="cWH9TmBcc+E+qUrSauO0I2pXG6E="/>
+    </page:show>
+</div>

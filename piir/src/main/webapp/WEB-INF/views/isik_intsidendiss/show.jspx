@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS" object="${isik_intsidendis}" path="/isik_intsidendiss" z="VOnA1iAqtZbOYH9JuLa6Dm/tcJs=">
+        <field:display date="true" dateTimePattern="${ISIK_INTSIDENDIS_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_alates" object="${isik_intsidendis}" z="cCRoUAvT7ffjYP8JF2POziMZadg="/>
+        <field:display date="true" dateTimePattern="${ISIK_INTSIDENDIS_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_kuni" object="${isik_intsidendis}" z="gVVfAWRJBkMKZqLMKJwJSrvwABY="/>
+        <field:display field="kirjeldus" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_kirjeldus" object="${isik_intsidendis}" z="VSeCdBwnmFpQidSg18xMVfcca6I="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_kommentaar" object="${isik_intsidendis}" z="bSTdtMvBUX+iADWeCePc5eiiOvs="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_avaja" object="${isik_intsidendis}" z="t7ekwCKRqswYjMBwPtOnZX6IUow="/>
+        <field:display date="true" dateTimePattern="${ISIK_INTSIDENDIS_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_avatud" object="${isik_intsidendis}" z="/L/nVYMDWEX37NG2p06lkxJzx+Y="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_muutja" object="${isik_intsidendis}" z="nE4A3mRfDcpXW0cidp5EUx/CySM="/>
+        <field:display date="true" dateTimePattern="${ISIK_INTSIDENDIS_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_muudetud" object="${isik_intsidendis}" z="qNh4/AnmU+xIRao2v1w1WOjiNrY="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_sulgeja" object="${isik_intsidendis}" z="0ShB4ppdEclZlVTEtWDelvAjlJI="/>
+        <field:display date="true" dateTimePattern="${ISIK_INTSIDENDIS_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_suletud" object="${isik_intsidendis}" z="8DWI8qJ/xHqZQjUPfaSXgtRTbUI="/>
+        <field:display field="INTSIDENT" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_iNTSIDENT" object="${isik_intsidendis}" z="x65nnxhJsrnysdL/rbgHXa1wHBY="/>
+        <field:display field="PIIRIRIKKUJA" id="s_ee_itcollege_i377_team28_entities_ISIK_INTSIDENDIS_pIIRIRIKKUJA" object="${isik_intsidendis}" z="+MKKFfZLlINAI5M2cAOiTFAu6xo="/>
+    </page:show>
+</div>

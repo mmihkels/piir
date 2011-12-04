@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT" items="${piirivalvuri_kontakts}" z="dGqCngWStzMRGoc3aT6qb3uJgOA=">
+        <table:table data="${piirivalvuri_kontakts}" id="l_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT" path="/piirivalvuri_kontakts" typeIdFieldName="piirivalvuri_kontakt_id" z="yR+0ct01/nMz6gJwqiRIFgSjwlI=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_kontakt" property="kontakt" z="1YXmtebfr5kysCTe78POksVrW6E="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_peamine_kontakt" property="peamine_kontakt" z="4tnSjxZnPx1U3jlfi1LClwch/w8="/>
+            <table:column date="true" dateTimePattern="${PIIRIVALVURI_KONTAKT_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_alates" property="alates" z="DP2ZgUJZg5DNh6hKVGRtvzINbTo="/>
+            <table:column date="true" dateTimePattern="${PIIRIVALVURI_KONTAKT_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_kuni" property="kuni" z="am00Jqj+pCR8FmxS/UL+QDVMWtg="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_kommentaar" property="kommentaar" z="OV73JWHjd/OwOB0HMoMXsHBwW88="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_avaja" property="avaja" z="DIpRkd9arfSognJHACRqiYRNsNM="/>
+        </table:table>
+    </page:list>
+</div>

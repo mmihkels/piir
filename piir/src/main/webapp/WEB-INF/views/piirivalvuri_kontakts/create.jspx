@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT" modelAttribute="PIIRIVALVURI_KONTAKT" path="/piirivalvuri_kontakts" render="${empty dependencies}" z="StwPPV3lRa4pxx4fWpCj1KRvLX8=">
+        <field:textarea field="kontakt" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_kontakt" required="true" z="mxIEzJ3xPLsTs5f8qSasTZq67uQ="/>
+        <field:input field="peamine_kontakt" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_peamine_kontakt" max="1" min="1" required="true" z="4W8q5QSbGXsjrWfeQTcOQ10tl8I="/>
+        <field:datetime dateTimePattern="${PIIRIVALVURI_KONTAKT_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_alates" z="WWRWg8wdGS1ZwJNi6kEYRN/K2V4="/>
+        <field:datetime dateTimePattern="${PIIRIVALVURI_KONTAKT_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_kuni" z="cFETdMg5eB7ZWAxad3NjX2GaN/Y="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_kommentaar" required="true" z="iZ7J4LQBHW8aTUPixUemKBE+dbs="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_avaja" required="true" z="rF64Nj52+5cU4Qu/rusHjK0Rymk="/>
+        <field:datetime dateTimePattern="${PIIRIVALVURI_KONTAKT_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_avatud" required="true" z="xp/3W7vo9HMGj6COzxd/NHbYsWU="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_muutja" required="true" z="ISN4GZ7OGkWRf8UzU0ExJ40ltrI="/>
+        <field:datetime dateTimePattern="${PIIRIVALVURI_KONTAKT_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_muudetud" required="true" z="VVyYHI/bi1cSeRYsvysgW4h+3+c="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_sulgeja" z="82odxuhEBODS9Mskozb1d/6XBbk="/>
+        <field:datetime dateTimePattern="${PIIRIVALVURI_KONTAKT_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_suletud" required="true" z="jay1mMAvBHW4N4r+fUDd/4hDCfQ="/>
+        <field:select field="pIIRIVALVUR" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_pIIRIVALVUR" itemValue="piirivalvur_id" items="${piirivalvurs}" path="/piirivalvurs" z="d+sq5VYSnIH3dhFy7fUfO3w+DOY="/>
+        <field:select field="kONTAKTI_LIIK" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT_kONTAKTI_LIIK" itemValue="kontakti_liik_id" items="${kontakti_liiks}" path="/kontakti_liiks" z="8HU7tEpfwmtjHAZ5O4wH7ny48rU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ee_itcollege_i377_team28_entities_PIIRIVALVURI_KONTAKT" render="${not empty dependencies}" z="dssrLgG9W324APDcZgsK9PMgc5Y="/>
+</div>

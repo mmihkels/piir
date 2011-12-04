@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_VAEOSA" idField="vaeosa_ID_id" modelAttribute="VAEOSA" path="/vaeosas" versionField="Version" z="XJJqEXNqfKf8mpqrb4p0HRwHz84=">
+        <field:input field="kood" id="c_ee_itcollege_i377_team28_entities_VAEOSA_kood" max="20" min="1" required="true" z="m2XK+Tr4q++tgRFXX5OVP7Olz1c="/>
+        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team28_entities_VAEOSA_nimetus" required="true" z="l6fO0HMM0XlXBiBmNFnpDr3wJUA="/>
+        <field:datetime dateTimePattern="${VAEOSA_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_VAEOSA_alates" required="true" z="bG9taakl54ELZUarL0muFAB13+M="/>
+        <field:datetime dateTimePattern="${VAEOSA_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_VAEOSA_kuni" required="true" z="Re+KerGJ/54f9XRpYQsk84B8ic0="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_VAEOSA_kommentaar" z="wRzpk8K09bFz5p6GnS+3J5QWj9Q="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_VAEOSA_avaja" required="true" z="qn13vm/AXvewE/tAABGPnz2Sxac="/>
+        <field:datetime dateTimePattern="${VAEOSA_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_VAEOSA_avatud" required="true" z="a2JWsoGNEzNyABpxITo4wwOHIm4="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_VAEOSA_muutja" required="true" z="2CLqx2RoPVmFFybTZcx947VKBFI="/>
+        <field:datetime dateTimePattern="${VAEOSA_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_VAEOSA_muudetud" required="true" z="gHVcN0fV1KWjn8OiljXcmPG9el0="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_VAEOSA_sulgeja" z="+KCSAcu8qvD45tYLohrmkhXPvk0="/>
+        <field:datetime dateTimePattern="${VAEOSA_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_VAEOSA_suletud" required="true" z="TSfL6klgyUfbyxO17QhHgE4iFyQ="/>
+        <field:select field="rIIGI_ADMIN_YKSUS" id="c_ee_itcollege_i377_team28_entities_VAEOSA_rIIGI_ADMIN_YKSUS" itemValue="riigi_admin_yksus_id" items="${riigi_admin_yksus}" path="/riigi_admin_yksus" z="VSMGhEIelWrcsACYYygARbfabI8="/>
+        <field:simple field="vAEOSA_ALLUVUS" id="c_ee_itcollege_i377_team28_entities_VAEOSA_vAEOSA_ALLUVUS" messageCode="entity_reference_not_managed" messageCodeAttribute="V A E O S A_ A L L U V U S" z="Gb2LlV7H641X2jKnUnLbpjnkLh4="/>
+        <field:simple field="pIIRIPUNKT_ALLUVUS" id="c_ee_itcollege_i377_team28_entities_VAEOSA_pIIRIPUNKT_ALLUVUS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I P U N K T I_ A L L U V U S" z="VDRwQ3IuxU6m7IgP+edFSPuMhks="/>
+        <field:simple field="oRG_YKSUS" id="c_ee_itcollege_i377_team28_entities_VAEOSA_oRG_YKSUS" messageCode="entity_reference_not_managed" messageCodeAttribute="O R G_ Y K S U S" z="vwC9ePK1eXKZGCuT4WEXIER0hU0="/>
+        <field:simple field="aMET_VAEOSAS" id="c_ee_itcollege_i377_team28_entities_VAEOSA_aMET_VAEOSAS" messageCode="entity_reference_not_managed" messageCodeAttribute="A M E T_ V A E O S A S" z="dn3lpj/jyOuWneENsItp4bU3baE="/>
+        <field:simple field="pIIRILOIGU_HALDAJA" id="c_ee_itcollege_i377_team28_entities_VAEOSA_pIIRILOIGU_HALDAJA" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I L O I G U_ H A L D A J A" z="V6ZHWDadugfS9ZHtdzkC2CMjBBA="/>
+        <field:simple field="vAHTKOND" id="c_ee_itcollege_i377_team28_entities_VAEOSA_vAHTKOND" messageCode="entity_reference_not_managed" messageCodeAttribute="V A H T K O N D" z="rtzH8BgQp3VuscRZGz2gl/132ZI="/>
+        <field:simple field="pIIRIPUNKTI_ALLUVUS" id="c_ee_itcollege_i377_team28_entities_VAEOSA_pIIRIPUNKTI_ALLUVUS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I P U N K T I_ A L L U V U S" z="ZkPBikQUzdB0P5XWURfCZhTTaq4="/>
+    </form:update>
+</div>

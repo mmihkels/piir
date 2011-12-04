@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK" idField="objekti_liik_id" modelAttribute="OBJEKTI_LIIK" path="/objekti_liiks" versionField="Version" z="YcPOexwtdoeAmCTUiGQgAOnyn44=">
+        <field:input field="kood" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_kood" max="18" min="1" required="true" z="iq2aPhKN6VP0tGmIWlb23EUNUN4="/>
+        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_nimetus" required="true" z="CsAJLbntx5tRGLLv3VX+mlJ1hMY="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_kommentaar" z="O45bsm8L9gj5wl+oLDJp9tG1yWo="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_avaja" required="true" z="hDv4CAej2wrQi1gio1WqHOPxD3Q="/>
+        <field:datetime dateTimePattern="${OBJEKTI_LIIK_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_avatud" required="true" z="xMJYmUZ3d3yqnWGthKnkN80ZyIg="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_muutja" required="true" z="2sBrZgIZssB+B24x7gLRb+XefUs="/>
+        <field:datetime dateTimePattern="${OBJEKTI_LIIK_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_muudetud" required="true" z="RBQ3wdexxfYhWNikn6/fKjWv+WE="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_sulgeja" z="g+NMo44UEhE/KsMkjm3s+9Hx8Cc="/>
+        <field:datetime dateTimePattern="${OBJEKTI_LIIK_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_suletud" required="true" z="KyAqGdMXfIbTnsuiQSRC05sQLv0="/>
+        <field:simple field="oBJEKT" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_LIIK_oBJEKT" messageCode="entity_reference_not_managed" messageCodeAttribute="O B J E K T" z="cU1coi2XtBNajYe9Pqm9MMGaplc="/>
+    </form:update>
+</div>

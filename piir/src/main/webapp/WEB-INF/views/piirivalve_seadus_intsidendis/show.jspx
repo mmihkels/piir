@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI" object="${piirivalve_seadus_intsidendi}" path="/piirivalve_seadus_intsidendis" z="LaG2J4UY2WZIyPouQLt+TNMorn4=">
+        <field:display date="true" dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_alates" object="${piirivalve_seadus_intsidendi}" z="BvGpqfI09ZROcKjHTtNZBqevEIQ="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_kuni" object="${piirivalve_seadus_intsidendi}" z="h6JVHIqmXE5JouB+Ch5kUMnR9js="/>
+        <field:display field="kirjeldus" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_kirjeldus" object="${piirivalve_seadus_intsidendi}" z="G0Q0sSBJeih0pGWgA5wkGDp7q3k="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_kommentaar" object="${piirivalve_seadus_intsidendi}" z="AbyczuRshx9n39yZJm9X5EsnxsA="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_avaja" object="${piirivalve_seadus_intsidendi}" z="w+CF6zVduQ72rIzbulDJzBv1B40="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_avatud" object="${piirivalve_seadus_intsidendi}" z="ZohimoK72zjCusuDDNUzLOV7MdM="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_muutja" object="${piirivalve_seadus_intsidendi}" z="ythTkVTmBz3I+++POgfWGDwJcNw="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_muudetud" object="${piirivalve_seadus_intsidendi}" z="nDvVqmm/XcGrvr0GYu2K3k+ifOE="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_sulgeja" object="${piirivalve_seadus_intsidendi}" z="+xSHBZtMXnUasE1jwbT3aFGiErg="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_suletud" object="${piirivalve_seadus_intsidendi}" z="WKC6orkYbbB6mMOqUSbRZKq+4Og="/>
+        <field:display field="PIIRIVALVUR_INTSIDENDIS" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_pIIRIVALVUR_INTSIDENDIS" object="${piirivalve_seadus_intsidendi}" z="pVt2CvsBy4McECjeDzoq+SNnlUY="/>
+        <field:display field="SEADUSE_PUNKT" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_sEADUSE_PUNKT" object="${piirivalve_seadus_intsidendi}" z="aFnaYkSo6qanqikCEUVoD92kidw="/>
+    </page:show>
+</div>

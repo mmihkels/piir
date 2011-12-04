@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE" items="${vahtkonna_liiges}" z="JfF4Szn9D4IB1gtCwjX6VUW+Lbk=">
+        <table:table data="${vahtkonna_liiges}" id="l_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE" path="/vahtkonna_liiges" typeIdFieldName="vahtkonna_liige_id" z="Q9z1dGqjjjYchO5bOYwUxOOd/fw=">
+            <table:column date="true" dateTimePattern="${VAHTKONNA_LIIGE_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_alates" property="alates" z="5UAYjtC8FCc1Kq8peKgk1ch0agc="/>
+            <table:column date="true" dateTimePattern="${VAHTKONNA_LIIGE_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_kuni" property="kuni" z="qX/taCMf7++00h4Ru9uWOR036+s="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_kommentaar" property="kommentaar" z="7KEChgX4+ZMxZVhh3FJ04vq6org="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_avaja" property="avaja" z="MWiZjw399esV+sXhFu9SP5yqLUU="/>
+            <table:column date="true" dateTimePattern="${VAHTKONNA_LIIGE_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_avatud" property="avatud" z="+RDNcF88wAhZpfEN96Xlj7QeH34="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_muutja" property="muutja" z="gAJTeF+DdkxTCp1tnyf9vsOX1pc="/>
+        </table:table>
+    </page:list>
+</div>

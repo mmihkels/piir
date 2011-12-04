@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_VOODIKOHT" items="${voodikohts}" z="vcatlnhfqrriUJCH7NYTYLwkMHk=">
+        <table:table data="${voodikohts}" id="l_ee_itcollege_i377_team28_entities_VOODIKOHT" path="/voodikohts" typeIdFieldName="voodikoht_id" z="rPqaJVKSLc/Sb1Yx3ibN/454E/8=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_number" property="number" z="lsGTY4dqnwya5ISJxi9REg1YCgI="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_pikkus" property="pikkus" z="uz+QOWGJB0EV7oQCOJYbODpc1Mk="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_laius" property="laius" z="UwdL69vQmSoO62vxRuu7HNZuVxk="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_kommentaar" property="kommentaar" z="Z2R7OuvmHDrAgB8EO+pbLh3SZPk="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_avaja" property="avaja" z="UiiIbiiCDhn/iuafgNONoo2TDzM="/>
+            <table:column date="true" dateTimePattern="${VOODIKOHT_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_avatud" property="avatud" z="pNliqVa9o+pPlAnF4WdTOJ8r4Ec="/>
+        </table:table>
+    </page:list>
+</div>

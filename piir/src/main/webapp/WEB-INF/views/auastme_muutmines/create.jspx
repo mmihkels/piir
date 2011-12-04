@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE" modelAttribute="AUASTME_MUUTMINE" path="/auastme_muutmines" render="${empty dependencies}" z="6shku4UiSyqlWVHxk5SymRIIJGE=">
+        <field:datetime dateTimePattern="${AUASTME_MUUTMINE_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_alates" z="Uu8hReP2JU5u9Dde33FGb+/nrrs="/>
+        <field:datetime dateTimePattern="${AUASTME_MUUTMINE_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_kuni" z="po326LVyAqjK0w3P+UrCWUe95V8="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_kommentaar" z="88D8VSQf4gZmXtKbqDpxGTNwQ88="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_avaja" required="true" z="yaum/xPJKAblyGofuK6TCrbc3yc="/>
+        <field:datetime dateTimePattern="${AUASTME_MUUTMINE_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_avatud" required="true" z="tSmNV2Xgm9Znjx6+My9g2bKpcxE="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_muutja" required="true" z="aoNZHlXtZHw5iPFyCCgBemt/5pc="/>
+        <field:datetime dateTimePattern="${AUASTME_MUUTMINE_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_muudetud" required="true" z="4x39H0ZvvzlEaFBwPRQjonseAmA="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_sulgeja" z="p73oGy4BCwXAefRcr6tjcU309JM="/>
+        <field:datetime dateTimePattern="${AUASTME_MUUTMINE_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_suletud" required="true" z="ukfFYvKmbXBi+772xe/2Is4PbeI="/>
+        <field:select field="aUASTE" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_aUASTE" itemValue="auaste_id" items="${auastes}" path="/auastes" z="5veUlLOuYddw27Oqdkjev7BO5zI="/>
+        <field:select field="pIIRIVALVUR" id="c_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE_pIIRIVALVUR" itemValue="piirivalvur_id" items="${piirivalvurs}" path="/piirivalvurs" z="A0+5fjHWLWpMD3u1vDNrEE8Vyxw="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ee_itcollege_i377_team28_entities_AUASTME_MUUTMINE" render="${not empty dependencies}" z="S2iZhWoDsNKSfYLJAxG98B0jmY4="/>
+</div>

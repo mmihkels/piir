@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="isiku_seadus_intsidendids/list">
+        <put-attribute name="body" value="/WEB-INF/views/isiku_seadus_intsidendids/list.jspx"/>
+    </definition>
+<definition extends="default" name="isiku_seadus_intsidendids/show">
+        <put-attribute name="body" value="/WEB-INF/views/isiku_seadus_intsidendids/show.jspx"/>
+    </definition>
+<definition extends="default" name="isiku_seadus_intsidendids/create">
+        <put-attribute name="body" value="/WEB-INF/views/isiku_seadus_intsidendids/create.jspx"/>
+    </definition>
+<definition extends="default" name="isiku_seadus_intsidendids/update">
+        <put-attribute name="body" value="/WEB-INF/views/isiku_seadus_intsidendids/update.jspx"/>
+    </definition>
+</tiles-definitions>

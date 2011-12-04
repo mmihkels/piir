@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_AMET_VAEOSAS" object="${amet_vaeosas}" path="/amet_vaeosass" z="wSLS/giqt44OylX7ZiO1BNd3zj8=">
+        <field:display date="true" dateTimePattern="${AMET_VAEOSAS_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_alates" object="${amet_vaeosas}" z="XuBn0OpmDgjegoM7cs+g2jjPycg="/>
+        <field:display date="true" dateTimePattern="${AMET_VAEOSAS_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_kuni" object="${amet_vaeosas}" z="3iBqrDTjqPgu67przWMlXy67U3w="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_kommentaar" object="${amet_vaeosas}" z="uT1muHFriq+B6bcehUgzZJPyGIA="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_avaja" object="${amet_vaeosas}" z="L+HGwzd7BfA83W5rv9BRIBikuGg="/>
+        <field:display date="true" dateTimePattern="${AMET_VAEOSAS_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_avatud" object="${amet_vaeosas}" z="68PtjuilSP5kOmiMZmJXxiKKUJo="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_muutja" object="${amet_vaeosas}" z="nvSWRc08luCYkTHkr1nVFoSK8X8="/>
+        <field:display date="true" dateTimePattern="${AMET_VAEOSAS_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_muudetud" object="${amet_vaeosas}" z="wnN4gO5ayK/MMKXgxuSZDFVyqn0="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_sulgeja" object="${amet_vaeosas}" z="nuq4saXm/nkMT5jmRnIautECNiA="/>
+        <field:display date="true" dateTimePattern="${AMET_VAEOSAS_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_suletud" object="${amet_vaeosas}" z="Jdtb0h9mtvfHOH9KuWxXMxM91yo="/>
+        <field:display field="VAEOSA" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_vAEOSA" object="${amet_vaeosas}" z="FdFnlYwMqh3CqM20VfOFbqXW/P4="/>
+        <field:display field="AMET" id="s_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_aMET" object="${amet_vaeosas}" z="JkKcRVRsnsUFoudKvxtYqSaVLhw="/>
+    </page:show>
+</div>

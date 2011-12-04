@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" 
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" 
+	xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" 
+	version="2.0">
+	
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK" items="${intsidendi_liiks}" z="/Fnz5WgOCJsMO3oKZHhJ8W9+zIw=">
+        <table:table data="${intsidendi_liiks}" id="l_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK" path="/intsidendi_liiks" typeIdFieldName="intsidendi_liik_id" z="VD9Ftw9u4YASoDcTITIjPRUrsqk=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_kood" property="kood" z="bEH+snyG1b+4x591TSub8Yjwxp0="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_nimetus" property="nimetus" z="yXbPE3NDhSG/iWlxps6Y50RsrY8="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_kommentaar" property="kommentaar" z="0SQkZrRIaIbpnve/DJTxbWTNdO4="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_avaja" property="avaja" z="8QCeOWPxnXtEHPFSnniCEsabjxg="/>
+            <table:column date="true" dateTimePattern="${INTSIDENDI_LIIK_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_avatud" property="avatud" z="RyUJ0qaMFnnwYYJYFM6WZBZ3x5s="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_muutja" property="muutja" z="IqK084jG/LYBmxlMeGY6HgFR0DU="/>
+        </table:table>
+    </page:list>
+</div>

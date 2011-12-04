@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_RIIK" idField="riik_id" modelAttribute="RIIK" path="/riiks" versionField="Version" z="LsGvWrj+4TOP9z/X+aoNGJle75Y=">
+        <field:input field="ISO_kood" id="c_ee_itcollege_i377_team28_entities_RIIK_ISO_kood" max="20" min="1" required="true" z="TAl2Qf4btUw/YUMRKs0d46Mp1Pg="/>
+        <field:input field="ANSI_kood" id="c_ee_itcollege_i377_team28_entities_RIIK_ANSI_kood" max="18" min="1" required="true" z="rh0EeYpn/fzMoctXDzbZSs02ZuM="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_RIIK_kommentaar" z="/YFObPi9qXZ1aE7ZEZ+7PHFZWN0="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_RIIK_avaja" required="true" z="Jhh9fkuH3oJK2tR44pAqQemwV3o="/>
+        <field:datetime dateTimePattern="${RIIK_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_RIIK_avatud" required="true" z="VvIY/o4ZA0VA1hyvSiuPGuamKms="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_RIIK_muutja" required="true" z="oTgao2GVk6zCVbfqPTVwGJgG6+0="/>
+        <field:datetime dateTimePattern="${RIIK_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_RIIK_muudetud" required="true" z="Cl/CTR+nPdPIIXxH186M8IroHdc="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_RIIK_sulgeja" z="vBwFvRq5EQC2gwy2vkvyK0sLNR8="/>
+        <field:datetime dateTimePattern="${RIIK_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_RIIK_suletud" required="true" z="y4nZ7F2Sq2mrmHGTayPNY+cpClE="/>
+        <field:simple field="kODAKONDSUS" id="c_ee_itcollege_i377_team28_entities_RIIK_kODAKONDSUS" messageCode="entity_reference_not_managed" messageCodeAttribute="K O D A K O N D S U S" z="us10pmXHUzt3on922P4FhN4fqoY="/>
+    </form:update>
+</div>

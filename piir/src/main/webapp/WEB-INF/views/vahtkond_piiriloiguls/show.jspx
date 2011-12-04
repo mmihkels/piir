@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL" object="${vahtkond_piiriloigul}" path="/vahtkond_piiriloiguls" z="vo0Y+IobvWHWNM0AAktDSRK0460=">
+        <field:display date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_alates" object="${vahtkond_piiriloigul}" z="WSNbBxHJpGylS6/4lSl++IVwIws="/>
+        <field:display date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_kuni" object="${vahtkond_piiriloigul}" z="fnMRnfxixXVtAm6zemS/pMdfD0A="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_kommentaar" object="${vahtkond_piiriloigul}" z="cRkJuuf1IQP2r7WeJlrCG9Vkc4A="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_avaja" object="${vahtkond_piiriloigul}" z="ZiwUC+hqEly1wb2ylZibl/VFBCU="/>
+        <field:display date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_avatud" object="${vahtkond_piiriloigul}" z="5sTEkE0g7ghslKMCJgaRaz+H18c="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_muutja" object="${vahtkond_piiriloigul}" z="R9UDZG1zww5hWBWjqRuunU7eN88="/>
+        <field:display date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_muudetud" object="${vahtkond_piiriloigul}" z="EepL4+gCGdgda7lAAfsFyPnhqpw="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_sulgeja" object="${vahtkond_piiriloigul}" z="nN0cKPvquUehc0+Sq558vB2/GNg="/>
+        <field:display date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_suletud" object="${vahtkond_piiriloigul}" z="4/8S8maDrF981UUvlxIRmgcDwIo="/>
+        <field:display field="PIIRILOIK" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_pIIRILOIK" object="${vahtkond_piiriloigul}" z="xE6LEEb1jPxZb1XhfVvgaAEKbJU="/>
+        <field:display field="VAHTKOND" id="s_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_vAHTKOND" object="${vahtkond_piiriloigul}" z="lMgKSYmGxyGwWZak+H4/Y6iGhJs="/>
+    </page:show>
+</div>

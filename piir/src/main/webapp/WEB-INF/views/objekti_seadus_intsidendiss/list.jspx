@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS" items="${objekti_seadus_intsidendiss}" z="OEYIM+kNjFKjMvybQ48warWz5ek=">
+        <table:table data="${objekti_seadus_intsidendiss}" id="l_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS" path="/objekti_seadus_intsidendiss" typeIdFieldName="objekti_seadus_intsidendis_id" z="smjwknw9DMNSR1rjIa8aF1RtGH4=">
+            <table:column date="true" dateTimePattern="${OBJEKTI_SEADUS_INTSIDENDIS_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_alates" property="alates" z="QOj7e4QBdGKXuX41Zrn4sjD9+LM="/>
+            <table:column date="true" dateTimePattern="${OBJEKTI_SEADUS_INTSIDENDIS_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_kuni" property="kuni" z="P+Z+hsxoeH0S7WB1ylGR7r2qC7Y="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_kirjeldus" property="kirjeldus" z="j8uPXuOTeQyZ2tq5js+SnhxChkg="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_kommentaar" property="kommentaar" z="yg+PTV81PB6HJy9Jc0LOLNaaDJ0="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_avaja" property="avaja" z="5SkdhufHdcr5winSDXGXyLGsT1k="/>
+            <table:column date="true" dateTimePattern="${OBJEKTI_SEADUS_INTSIDENDIS_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_avatud" property="avatud" z="OsPX0OJPUFjxSGP9ue17x0SyyFU="/>
+        </table:table>
+    </page:list>
+</div>

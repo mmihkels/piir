@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_VOODIKOHT" idField="voodikoht_id" modelAttribute="VOODIKOHT" path="/voodikohts" versionField="Version" z="EOrob2wvDbUxjxsQ+BUCsTLXcNY=">
+        <field:input field="number" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_number" max="20" min="1" required="true" z="i5tYeDBuScBcENHhO8RnrrDmwKA="/>
+        <field:input field="pikkus" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_pikkus" validationMessageCode="field_invalid_integer" z="8g8ONW42ghqdx/14qtY7jpwGKKE="/>
+        <field:input field="laius" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_laius" validationMessageCode="field_invalid_integer" z="HHSKKz4BWzy0eJvnmC0hX7/euT8="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_kommentaar" z="7ZqvoQcPb8WMwkn8GcuDVZWPyB8="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_avaja" required="true" z="bZ2TBtOuAqFCStm1uzEquKMhNZg="/>
+        <field:datetime dateTimePattern="${VOODIKOHT_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_avatud" required="true" z="l9MsObI1XttE13jCsQ9azwlx840="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_muutja" required="true" z="dG+aw76HZ7NhpCO2oNBlFolyHMA="/>
+        <field:datetime dateTimePattern="${VOODIKOHT_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_muudetud" required="true" z="3BjLVmzqRgHd9slHma0TIAyip8Q="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_sulgeja" z="l3PnlyJJQaguJOCarLfQjXjkIlo="/>
+        <field:datetime dateTimePattern="${VOODIKOHT_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_suletud" required="true" z="wsvdEl2PVN9t0hdEBFEUhm6eaqU="/>
+        <field:select field="rUUMIYKSUS" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_rUUMIYKSUS" itemValue="ruumiyksus_id" items="${ruumiyksus}" path="/ruumiyksus" z="MuUppN7DGfWfnKWM2ENBktdikOY="/>
+        <field:simple field="pIIRIVALVUR_VOODIKOHAL" id="c_ee_itcollege_i377_team28_entities_VOODIKOHT_pIIRIVALVUR_VOODIKOHAL" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R_ V O O D I K O H A L" z="Rh7Iva51ugTreS4qwIBwjLp3Y0E="/>
+    </form:update>
+</div>

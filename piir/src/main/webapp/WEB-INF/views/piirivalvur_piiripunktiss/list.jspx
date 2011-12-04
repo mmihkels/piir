@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS" items="${piirivalvur_piiripunktiss}" z="YNkxgQtLijaLjoteEhfY523d6l4=">
+        <table:table data="${piirivalvur_piiripunktiss}" id="l_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS" path="/piirivalvur_piiripunktiss" typeIdFieldName="piirivalvur_piiripunktis_id" z="3hIydNI1sHmbDyhh+3LGvuwsUiU=">
+            <table:column date="true" dateTimePattern="${PIIRIVALVUR_PIIRIPUNKTIS_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_alates" property="alates" z="jcZCtfMgVceHf0zupNPBOWwOEhw="/>
+            <table:column date="true" dateTimePattern="${PIIRIVALVUR_PIIRIPUNKTIS_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_kuni" property="kuni" z="w1FwPmLJZX9NsHgML5KFDDhsYh4="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_koormus" property="koormus" z="JyWfizCwNxY0OqfYUtjjDjB5A0s="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_kommentaar" property="kommentaar" z="tiP5dM9jw7FVMx4qzylNXFWOFfs="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_avaja" property="avaja" z="0U/H/i73mGk8qXb1fRl+3hMjgqk="/>
+            <table:column date="true" dateTimePattern="${PIIRIVALVUR_PIIRIPUNKTIS_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_avatud" property="avatud" z="4NZExuE00YKUBB9v69E21PdJUmU="/>
+        </table:table>
+    </page:list>
+</div>

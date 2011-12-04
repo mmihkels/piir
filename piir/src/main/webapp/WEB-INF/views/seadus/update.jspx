@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_SEADUS" idField="seadus_id" modelAttribute="SEADUS" path="/seadus" versionField="Version" z="H0RRUr3qqw+rOQ/DvOyCntKZDKY=">
+        <field:input field="kood" id="c_ee_itcollege_i377_team28_entities_SEADUS_kood" max="20" min="1" required="true" z="6SPzrtL0La2JhPObunwLhWoUCpk="/>
+        <field:input field="nimetus" id="c_ee_itcollege_i377_team28_entities_SEADUS_nimetus" max="20" min="1" required="true" z="EnNBrFXaODOxWr1xzlyNIIl/fQk="/>
+        <field:input field="kehtiv_alates" id="c_ee_itcollege_i377_team28_entities_SEADUS_kehtiv_alates" max="18" min="1" required="true" z="8e+GaX52IOk8Uqjzt38vIWJ7RQs="/>
+        <field:input field="kehtiv_kuni" id="c_ee_itcollege_i377_team28_entities_SEADUS_kehtiv_kuni" max="18" min="1" required="true" z="rpz1QNRdIy/V09vXz4cKG0XDbjo="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_SEADUS_kommentaar" max="20" min="1" required="true" z="CDhlybq0ggaqx85JTHcbehRp/CA="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_SEADUS_avaja" required="true" z="mvtr9KC1KzpO7bpNN51QQ9Lpk9M="/>
+        <field:datetime dateTimePattern="${SEADUS_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_SEADUS_avatud" required="true" z="RYzC/pLaSt4X2kKUsG+dhPbaXG8="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_SEADUS_muutja" required="true" z="QXyq3dPyNQklqc7yVg8D3R/i+zM="/>
+        <field:datetime dateTimePattern="${SEADUS_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_SEADUS_muudetud" required="true" z="lOfoCjQTz5gV2hqgPnww3Xy8PpA="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_SEADUS_sulgeja" z="jTeIgwTafFXmAc4VoXalUH2tf0k="/>
+        <field:datetime dateTimePattern="${SEADUS_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_SEADUS_suletud" required="true" z="ZEHjNZaaZiDwhSmb1M4DsBCqNqc="/>
+        <field:simple field="sEADUSE_PUNKT" id="c_ee_itcollege_i377_team28_entities_SEADUS_sEADUSE_PUNKT" messageCode="entity_reference_not_managed" messageCodeAttribute="S E A D U S E_ P U N K T" z="sygLdFQrKOXhoxvSyI6LaWayF/A="/>
+    </form:update>
+</div>

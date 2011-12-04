@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_ORG_YKSUS" object="${org_yksus}" path="/org_yksus" z="c7xbRESMcDekwwfi30xbodPu9KE=">
+        <field:display field="kood" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_kood" object="${org_yksus}" z="tK6zV+E8HsZ9f51l9F41iU8qPxc="/>
+        <field:display field="nimetus" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_nimetus" object="${org_yksus}" z="Fm0k2FTBwUg2H2vhgGnNcCe3V3I="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_kommentaar" object="${org_yksus}" z="eME0STpZbJDm+cQjq4CT4tukEMw="/>
+        <field:display date="true" dateTimePattern="${ORG_YKSUS_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_alates" object="${org_yksus}" z="j5I0mFevFgOmO/928a3Ra+plyyY="/>
+        <field:display date="true" dateTimePattern="${ORG_YKSUS_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_kuni" object="${org_yksus}" z="8IyGbr9Ezjclw51VYSHB+5A1tcM="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_avaja" object="${org_yksus}" z="Xp4RhOPvRVAMPMWvs1ZXcEd82Ig="/>
+        <field:display date="true" dateTimePattern="${ORG_YKSUS_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_avatud" object="${org_yksus}" z="wcXLzKCvkilDA/Ew8FWeTUoeSu0="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_muutja" object="${org_yksus}" z="TcKnDf0JEnnKxgJXucE/F3gI0J0="/>
+        <field:display date="true" dateTimePattern="${ORG_YKSUS_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_muudetud" object="${org_yksus}" z="An+uXQa/zFTkfIWN/ZHKzwXXUY4="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_sulgeja" object="${org_yksus}" z="hlDnhemwY70LbOM51M++ceAtzHM="/>
+        <field:display date="true" dateTimePattern="${ORG_YKSUS_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_suletud" object="${org_yksus}" z="PnxjuHw8L5zrNC8TqyI/AJpdHGo="/>
+        <field:display field="VAEOSA" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_vAEOSA" object="${org_yksus}" z="z64a7OoRa71lAzC9rroUBUo3p+Y="/>
+        <field:display field="ORG_YKSUS" id="s_ee_itcollege_i377_team28_entities_ORG_YKSUS_oRG_YKSUS" object="${org_yksus}" z="z6lMpVwXVb8gcDecwF8wL/3FaFo="/>
+    </page:show>
+</div>

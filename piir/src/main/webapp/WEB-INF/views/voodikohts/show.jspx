@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_VOODIKOHT" object="${voodikoht}" path="/voodikohts" z="2590v9qzGr8ZmATFz7EsQ/oZPQo=">
+        <field:display field="number" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_number" object="${voodikoht}" z="ErdTy8FN5lp7OXtdU0RvxkrX+As="/>
+        <field:display field="pikkus" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_pikkus" object="${voodikoht}" z="1xMng61aKaKWhjUqo3fhC1xkx8M="/>
+        <field:display field="laius" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_laius" object="${voodikoht}" z="m1wZZkK4w3uXU+LMw3tvi2nldbc="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_kommentaar" object="${voodikoht}" z="Em5WpdBYY1kxYpsTWTN5eaNg+xM="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_avaja" object="${voodikoht}" z="GuaGbdLmgAxyTVYBTu7IXBjA+AM="/>
+        <field:display date="true" dateTimePattern="${VOODIKOHT_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_avatud" object="${voodikoht}" z="2Lee0KdK99JOlR4U2lv3C9EIoRM="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_muutja" object="${voodikoht}" z="CMyn81vMj8kKE9BsU5mHtumH6wA="/>
+        <field:display date="true" dateTimePattern="${VOODIKOHT_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_muudetud" object="${voodikoht}" z="cDOMzYRGP0kVunqYm9ReEJST+ug="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_sulgeja" object="${voodikoht}" z="wlgcIVOkExEetRogR2EEjmLJBbk="/>
+        <field:display date="true" dateTimePattern="${VOODIKOHT_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_suletud" object="${voodikoht}" z="fHPbqnT6MgqjKSX3m1HIBjY05VE="/>
+        <field:display field="RUUMIYKSUS" id="s_ee_itcollege_i377_team28_entities_VOODIKOHT_rUUMIYKSUS" object="${voodikoht}" z="glAzihNRXUYRCrCrDRe7OvLRpGc="/>
+    </page:show>
+</div>

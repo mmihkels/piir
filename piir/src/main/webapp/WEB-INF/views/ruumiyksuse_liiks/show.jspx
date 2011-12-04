@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK" object="${ruumiyksuse_liik}" path="/ruumiyksuse_liiks" z="gVNhL7q3SIfTdNrvymXsrfv9cRs=">
+        <field:display field="kood" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK_kood" object="${ruumiyksuse_liik}" z="Kvw5B8t7z54jj5yg7Nr3jJisljg="/>
+        <field:display field="nimetus" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK_nimetus" object="${ruumiyksuse_liik}" z="FKMKvF9pZCpfCeQF9BUVFmnD6K8="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK_kommentaar" object="${ruumiyksuse_liik}" z="TSLz4ONmhxe/TmS1PoOSie3TCBo="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK_avaja" object="${ruumiyksuse_liik}" z="kcQhRFrPPqk7D5m0mOZqeg2OQkY="/>
+        <field:display date="true" dateTimePattern="${RUUMIYKSUSE_LIIK_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK_avatud" object="${ruumiyksuse_liik}" z="f1+0ZkTbbfst7GSgA+xTEzlgmXA="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK_muutja" object="${ruumiyksuse_liik}" z="R1mY2GY9Uk+vmgiZI60EnsfWmmE="/>
+        <field:display date="true" dateTimePattern="${RUUMIYKSUSE_LIIK_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK_muudetud" object="${ruumiyksuse_liik}" z="M+ibGrbj+dziH4aTup+rSk8WMwc="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK_sulgeja" object="${ruumiyksuse_liik}" z="Db5sFtPVJjEC94jkGUWiOky/Ilw="/>
+        <field:display date="true" dateTimePattern="${RUUMIYKSUSE_LIIK_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUSE_LIIK_suletud" object="${ruumiyksuse_liik}" z="nI0yEhTYtqMXfX5kRvOeQcuBXTA="/>
+    </page:show>
+</div>

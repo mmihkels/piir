@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI" items="${piirivalve_seadus_intsidendis}" z="LWuh5D20i2tx8jetNii/CDscjs0=">
+        <table:table data="${piirivalve_seadus_intsidendis}" id="l_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI" path="/piirivalve_seadus_intsidendis" typeIdFieldName="piirivalve_seadus_intsidendi_id" z="c/qTnGn4+HRDFB1lG4XDhiOX9YU=">
+            <table:column date="true" dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_alates" property="alates" z="oZBdDBwdjit7xHUD8gwYyzea1TA="/>
+            <table:column date="true" dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_kuni" property="kuni" z="nk7fKNcfXgOfpESnLoaIB25vI9s="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_kirjeldus" property="kirjeldus" z="iERQBbZxA8InWtrITpL48J8l81o="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_kommentaar" property="kommentaar" z="n7gV9fa97Kum3QAiBcpfnkZreRU="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_avaja" property="avaja" z="D/NnKABH62esaFZMPHemjX9Chmg="/>
+            <table:column date="true" dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_avatud" property="avatud" z="I29Kmia+a/JGUA92l/w7I7qLPlM="/>
+        </table:table>
+    </page:list>
+</div>

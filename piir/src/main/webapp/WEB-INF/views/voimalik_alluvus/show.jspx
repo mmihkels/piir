@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS" object="${voimalik_alluvus}" path="/voimalik_alluvus" z="5jkC/TwCk2xNdPr+5END2mZ285E=">
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_kommentaar" object="${voimalik_alluvus}" z="9oH4mxOLLCPexPkUPTe+iwt2nbA="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_avaja" object="${voimalik_alluvus}" z="d8btqE3t6uZHQLLSQ38yvvpiw+s="/>
+        <field:display date="true" dateTimePattern="${VOIMALIK_ALLUVUS_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_avatud" object="${voimalik_alluvus}" z="erhqI4OKdzgB5QrQ9p8gCl5QUxo="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_muutja" object="${voimalik_alluvus}" z="7MRvAcVbg52CMvJviNDqKKpsyXw="/>
+        <field:display date="true" dateTimePattern="${VOIMALIK_ALLUVUS_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_muudetud" object="${voimalik_alluvus}" z="AmDzoPSCsGnj12cBUU0OIpAEVGs="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_sulgeja" object="${voimalik_alluvus}" z="Arwtdky1+tj44hHM5x0PY2HUgWs="/>
+        <field:display date="true" dateTimePattern="${VOIMALIK_ALLUVUS_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_suletud" object="${voimalik_alluvus}" z="vLKLNmymMp7N+6BNVlVhaCjeDI0="/>
+        <field:display field="RIIGI_ADMIN_YKSUSE_LIIK_1" id="s_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_rIIGI_ADMIN_YKSUSE_LIIK_1" object="${voimalik_alluvus}" z="XQmRUAncX1hYJopHJVZnHQpbjKA="/>
+    </page:show>
+</div>

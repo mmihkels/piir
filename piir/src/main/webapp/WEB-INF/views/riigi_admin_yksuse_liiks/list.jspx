@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUSE_LIIK" items="${riigi_admin_yksuse_liiks}" z="lW42AmfqJswMjKnP38AoScQ1QQM=">
+        <table:table data="${riigi_admin_yksuse_liiks}" id="l_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUSE_LIIK" path="/riigi_admin_yksuse_liiks" typeIdFieldName="riigi_admin_yksuse_liik_id" z="IeuthHHGrEDyYVSGFiRgIghHksQ=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUSE_LIIK_nimetus" property="nimetus" z="vQVgRweeq2kUn0OJAIyCy/hD/YY="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUSE_LIIK_kommentaar" property="kommentaar" z="Mw2rF2SLl/i6LcGCgg48Ap9ybuo="/>
+            <table:column date="true" dateTimePattern="${RIIGI_ADMIN_YKSUSE_LIIK_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUSE_LIIK_alates" property="alates" z="BPR4sq1VhkzHc37/iDvE3eTR2jk="/>
+            <table:column date="true" dateTimePattern="${RIIGI_ADMIN_YKSUSE_LIIK_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUSE_LIIK_kuni" property="kuni" z="eT7dQvxMSeLf23r2c5k+SnBzKTE="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUSE_LIIK_avaja" property="avaja" z="yNlRnP6P5lP/A6eYsB9yT9LaF6Y="/>
+            <table:column date="true" dateTimePattern="${RIIGI_ADMIN_YKSUSE_LIIK_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_RIIGI_ADMIN_YKSUSE_LIIK_avatud" property="avatud" z="m7lD/caFXop2MR8qmhpls2j0I8c="/>
+        </table:table>
+    </page:list>
+</div>

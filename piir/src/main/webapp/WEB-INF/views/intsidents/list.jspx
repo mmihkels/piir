@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_INTSIDENT" items="${intsidents}" z="JlOoU25leLsoVmELlmVILP76+Yc=">
+        <table:table data="${intsidents}" id="l_ee_itcollege_i377_team28_entities_INTSIDENT" path="/intsidents" typeIdFieldName="intsident_id" z="D/0cgf/p9SQc05jqxDeMQtAPcgQ=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_INTSIDENT_kood" property="kood" z="PvWS3OVuToR9J7QiKQ3M8BU7cxE="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_INTSIDENT_nimetus" property="nimetus" z="c8JxMAWs8Yc8c/VhbUfZOxsyaIk="/>
+            <table:column date="true" dateTimePattern="${INTSIDENT_toimumise_algus_date_format}" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_toimumise_algus" property="toimumise_algus" z="a91G+SBolierTp2NYtECDsVN8Zk="/>
+            <table:column date="true" dateTimePattern="${INTSIDENT_toimumise_lopp_date_format}" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_toimumise_lopp" property="toimumise_lopp" z="8gmBj8OHYApcxo8AEymeHoxU/E0="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_INTSIDENT_GPS_longituud" property="GPS_longituud" z="kS/bbMyrdj1Ka0rwTNn2a2Rx5Sk="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_INTSIDENT_GPS_latituud" property="GPS_latituud" z="qPCYD/I4c/6ExgJJMrBJVJRle7Q="/>
+        </table:table>
+    </page:list>
+</div>

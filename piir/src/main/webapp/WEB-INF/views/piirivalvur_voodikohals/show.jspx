@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL" object="${piirivalvur_voodikohal}" path="/piirivalvur_voodikohals" z="U7VViaCj3IggH7p5ETXzQ281nn8=">
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_alates" object="${piirivalvur_voodikohal}" z="oToQ4AcDjEuCgwScYf0MYZ7kJ0k="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_kuni" object="${piirivalvur_voodikohal}" z="EQxdUp8D9qONcqNN5HGIhpdo5wM="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_kommentaar" object="${piirivalvur_voodikohal}" z="r/32qvokXrOPH+k0BdEgTOfCn9Q="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_avaja" object="${piirivalvur_voodikohal}" z="5RI98aq0K2WmBbvynwtjNxc3W/Q="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_avatud" object="${piirivalvur_voodikohal}" z="GvoyHoy4N6jXCJ2DSK5CnGOLih4="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_muutja" object="${piirivalvur_voodikohal}" z="A8vNs0WiWX1KCrlIWhuAdiUCcnU="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_muudetud" object="${piirivalvur_voodikohal}" z="m0+BdVGeobGRW762/ElYSwnyzis="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_sulgeja" object="${piirivalvur_voodikohal}" z="SAlYopT6un7yv+hIQywxLYX3n18="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_suletud" object="${piirivalvur_voodikohal}" z="cM6lBkhxlVTZUvR79/JFYzmCTNI="/>
+        <field:display field="PIIRIVALVUR" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_pIIRIVALVUR" object="${piirivalvur_voodikohal}" z="D3HaMtN9LzqlfBHluCy90qmsVeM="/>
+        <field:display field="VOODIKOHT" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_vOODIKOHT" object="${piirivalvur_voodikohal}" z="rOrq1EI7t3f034PZ6tq7sKQC5Bc="/>
+    </page:show>
+</div>

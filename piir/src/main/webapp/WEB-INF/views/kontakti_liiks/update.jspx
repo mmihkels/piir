@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK" idField="kontakti_liik_id" modelAttribute="KONTAKTI_LIIK" path="/kontakti_liiks" versionField="Version" z="CeN8qa7tPcIWlKOCB5tQ1icWQSM=">
+        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_nimetus" required="true" z="SStIOt8JORtc5TuB151cDqEvaW8="/>
+        <field:input field="XML_kirjeldus" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_XML_kirjeldus" z="7kymjgcUvZi8wiXvB4c8Hl0IaeA="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_kommentaar" required="true" z="wn/kdz184HWhJUJEI9Vc1YDvnW4="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_avaja" required="true" z="zGH4GZQAKiLXhGTIgtmplu04M5I="/>
+        <field:datetime dateTimePattern="${KONTAKTI_LIIK_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_avatud" required="true" z="Hbi7BVnpH77uRa4hQ9V2XwtmbP4="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_muutja" required="true" z="9JlUd9MKjUAp3nj+ZV0gTxePW1M="/>
+        <field:datetime dateTimePattern="${KONTAKTI_LIIK_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_muudetud" required="true" z="uRI7BKM7ONEbfZcE1bMrNoyMSIQ="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_sulgeja" z="I6vl20Sv4b71F2puAOVz9y2PGV4="/>
+        <field:datetime dateTimePattern="${KONTAKTI_LIIK_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_suletud" required="true" z="hgK4quo5aAhWU+DYVmDpbu91XGU="/>
+        <field:simple field="pIIRIVALVURI_KONTAKT" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_pIIRIVALVURI_KONTAKT" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R I_ K O N T A K T" z="loA3dLmeJwG3RDDj683AZmV/VDk="/>
+    </form:update>
+</div>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_RUUMIYKSUS" object="${ruumiyksus}" path="/ruumiyksus" z="3IqT9OwlYUhM9KuBw6RxT7dzl+I=">
+        <field:display field="kood" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_kood" object="${ruumiyksus}" z="A81JHegZYUH5KaQYujrjOHSsCiU="/>
+        <field:display field="nimetus" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_nimetus" object="${ruumiyksus}" z="q+W/fdjWp+gnVjMlMwrwoOLLbBo="/>
+        <field:display field="aadress" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_aadress" object="${ruumiyksus}" z="Y7PUlMtz6XDw4pjbjAy4kZW6q6U="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_kommentaar" object="${ruumiyksus}" z="BCsL+BEN9c3Cw8P3qfkqsSqaOPo="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_avaja" object="${ruumiyksus}" z="l+6gyuw7v+e0hDOIobMOt6Yegbw="/>
+        <field:display date="true" dateTimePattern="${RUUMIYKSUS_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_avatud" object="${ruumiyksus}" z="qgZSFiuHtlQt1RAv3IZaWlN2N7k="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_muutja" object="${ruumiyksus}" z="SL6i+SO0UFa6t3ckNyZCkPbNDos="/>
+        <field:display date="true" dateTimePattern="${RUUMIYKSUS_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_muudetud" object="${ruumiyksus}" z="64UUZalLyeYwJBEqCk0eQzGD+yk="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_sulgeja" object="${ruumiyksus}" z="aexJX2LCXFN7bIO+pCB7cg/W8c8="/>
+        <field:display date="true" dateTimePattern="${RUUMIYKSUS_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_suletud" object="${ruumiyksus}" z="2FFNpniB3DxX29NCLHogT8/Fowg="/>
+        <field:display field="RUUMIYKSUS" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_rUUMIYKSUS" object="${ruumiyksus}" z="qV3Z5+pfekFLB029QLtWTAE72dg="/>
+        <field:display field="RIIGI_ADMIN_YKSUS" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_rIIGI_ADMIN_YKSUS" object="${ruumiyksus}" z="30jchQMlm//vRKHvUskRujwCg3g="/>
+        <field:display field="RUUMIYKSUSE_LIIK" id="s_ee_itcollege_i377_team28_entities_RUUMIYKSUS_rUUMIYKSUSE_LIIK" object="${ruumiyksus}" z="ibxp7+4gX6tB0QZLDWA3153Crug="/>
+    </page:show>
+</div>

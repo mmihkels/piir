@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK" object="${kontakti_liik}" path="/kontakti_liiks" z="mWGQBPHNk3ps982tepCGX3sagD8=">
+        <field:display field="nimetus" id="s_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_nimetus" object="${kontakti_liik}" z="aXQu+M2m55K7q/n7M0fmVXeavCg="/>
+        <field:display field="XML_kirjeldus" id="s_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_XML_kirjeldus" object="${kontakti_liik}" z="txU9b8Byr+QBajwwojVYNzP70nA="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_kommentaar" object="${kontakti_liik}" z="t6wlAKGcgiLDG7ZRgQMBqM1rtGY="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_avaja" object="${kontakti_liik}" z="bo0dt9kuPnzZZFvhdDbRQALE7DI="/>
+        <field:display date="true" dateTimePattern="${KONTAKTI_LIIK_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_avatud" object="${kontakti_liik}" z="blGaeFM5iNmx8E5rXBh2qfRDagM="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_muutja" object="${kontakti_liik}" z="9JyeIMj/fNHMXtFlSrqKNUpwkoM="/>
+        <field:display date="true" dateTimePattern="${KONTAKTI_LIIK_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_muudetud" object="${kontakti_liik}" z="Z/Dp2n7tjFQAWgZyfmAuikYO0Yo="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_sulgeja" object="${kontakti_liik}" z="nt7OoXABZDYImm4yf+CPyiOgc2U="/>
+        <field:display date="true" dateTimePattern="${KONTAKTI_LIIK_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_suletud" object="${kontakti_liik}" z="BNdBuJZCXqj41QXzGIk6X2ueOVE="/>
+    </page:show>
+</div>

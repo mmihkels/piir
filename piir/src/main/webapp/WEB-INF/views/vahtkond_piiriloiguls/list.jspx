@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL" items="${vahtkond_piiriloiguls}" z="UUymh42QjSwSqJVYWdDFr2QEYMg=">
+        <table:table data="${vahtkond_piiriloiguls}" id="l_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL" path="/vahtkond_piiriloiguls" typeIdFieldName="vahtkond_piiriloigul_id" z="yKuoxlnP8mO4t/qLhW5FhJueFsc=">
+            <table:column date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_alates" property="alates" z="en9OqHbJ1Co/i4WzIsocZv24004="/>
+            <table:column date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_kuni" property="kuni" z="qXaEtMUerkazmjCNqJoMkZ7aSbI="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_kommentaar" property="kommentaar" z="UHwSGfQFDQQWlRNHdQyCUdgyk/E="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_avaja" property="avaja" z="Jt2BN5uDpFL2fwqvllACkMAwQA0="/>
+            <table:column date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_avatud" property="avatud" z="O/h2SfSZDGSJ0iK5+1Em8eN+7h4="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_muutja" property="muutja" z="+8Wgfu/J9hJsH0Q+/ci7I8dM0Ck="/>
+        </table:table>
+    </page:list>
+</div>

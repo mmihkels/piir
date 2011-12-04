@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS" idField="piirivalvur_piiripunktis_id" modelAttribute="PIIRIVALVUR_PIIRIPUNKTIS" path="/piirivalvur_piiripunktiss" versionField="Version" z="mbfFEyBB6o7SsXzL3lJ7n6POvCc=">
+        <field:datetime dateTimePattern="${PIIRIVALVUR_PIIRIPUNKTIS_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_alates" required="true" z="OSUbZKMNgNm1GXHnZOZxzDeckZ8="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_PIIRIPUNKTIS_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_kuni" required="true" z="RvCcJvdGJkcrnaMQxkyTb89Cxx0="/>
+        <field:input field="koormus" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_koormus" required="true" validationMessageCode="field_invalid_number" z="cEF7CIzbbhZ26DQR1aYUSZN6exo="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_kommentaar" z="NiujpUJkPwZuE8Uy/2AKA2tajds="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_avaja" required="true" z="ezgTzuZPPKicvjUccSXOyy/w8nk="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_PIIRIPUNKTIS_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_avatud" required="true" z="aMyO3ycTByM+n032YPQiZDsoVh0="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_muutja" required="true" z="dbSCpc/H0EPXBS4pfyB8Bka+9EQ="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_PIIRIPUNKTIS_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_muudetud" required="true" z="96JWNRkFMkaC7mYa87rP/ZWUbLA="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_PIIRIPUNKTIS_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_suletud" required="true" z="4o5QiQec1U+ECWtzJtnIrz7xGR0="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_sulgeja" z="RE1f22MsCNWH4l5IFi4xeCbqHNM="/>
+        <field:select field="aMET_PIIRIPUNKTIS" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_aMET_PIIRIPUNKTIS" itemValue="amet_piiripunktis_id" items="${amet_piiripunktiss}" path="/amet_piiripunktiss" z="mlS2u2d0OXK93bMZe1m0qd/X2nU="/>
+        <field:select field="pIIRIVALVUR" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_PIIRIPUNKTIS_pIIRIVALVUR" itemValue="piirivalvur_id" items="${piirivalvurs}" path="/piirivalvurs" z="glj5TYJwaC6lxqjUmA2zUakBkR4="/>
+    </form:update>
+</div>

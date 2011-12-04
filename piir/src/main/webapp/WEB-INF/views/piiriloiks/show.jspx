@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_PIIRILOIK" object="${piiriloik}" path="/piiriloiks" z="nR680AARIocMZiyetkz2C2pbGjw=">
+        <field:display field="kood" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_kood" object="${piiriloik}" z="QI+GGrva5Q/xaxkneG2HtE7Sl5o="/>
+        <field:display field="nimetus" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_nimetus" object="${piiriloik}" z="TvKOMzQLwfzzH00nuEB+7j6SjIM="/>
+        <field:display field="GPS_koordinaadid" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_GPS_koordinaadid" object="${piiriloik}" z="9+Epzw/ARbwfjhSNBNqkFEk1Hco="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_kommentaar" object="${piiriloik}" z="OSao0pSOnb31NGPMR/cxTBlXWHI="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_avaja" object="${piiriloik}" z="rBayB8mCIFirbZbxZy47T7Qwe5o="/>
+        <field:display date="true" dateTimePattern="${PIIRILOIK_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_avatud" object="${piiriloik}" z="04o1D6i2/0EYhsOY7qEGta5qMLI="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_muutja" object="${piiriloik}" z="pO0SievA1Gt2jE+/HWqHqCs9Enc="/>
+        <field:display date="true" dateTimePattern="${PIIRILOIK_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_muudetud" object="${piiriloik}" z="DPNg1RjMeMtvh4LczZvxRg5JvB8="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_sulgeja" object="${piiriloik}" z="3hIhuvtgUSNefN4/vcqYOO0zj1A="/>
+        <field:display field="vaeosa_ID_id" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_vaeosa_ID_id" object="${piiriloik}" z="+eJDE82UDzbkFUDUNSONopLtChg="/>
+        <field:display date="true" dateTimePattern="${PIIRILOIK_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_PIIRILOIK_suletud" object="${piiriloik}" z="rdi1b10cfNzLGbtWKZPFb2wA48Q="/>
+    </page:show>
+</div>

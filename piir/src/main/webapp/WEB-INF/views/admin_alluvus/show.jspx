@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS" object="${admin_alluvus}" path="/admin_alluvus" z="Bu5HrzNOoMtT1TQyiypuoQZuTcY=">
+        <field:display field="alates" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_alates" object="${admin_alluvus}" z="cMUTUI1bfi6mZfcILPs03LUyhXY="/>
+        <field:display field="kuni" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_kuni" object="${admin_alluvus}" z="/o1Emd81YQWN2nx/7krEDb7edqg="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_kommentaar" object="${admin_alluvus}" z="OAP1vm5i4l/Sv3vYyY4IePzaG38="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_avaja" object="${admin_alluvus}" z="tDmrBE1RLBc4v7o7fXfouNfMs+A="/>
+        <field:display date="true" dateTimePattern="${ADMIN_ALLUVUS_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_avatud" object="${admin_alluvus}" z="ykOniTXuRD4fGze947ZDaCeuPDI="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_muutja" object="${admin_alluvus}" z="qsAvYHL/Puo6VrYdukMhKZqlf54="/>
+        <field:display date="true" dateTimePattern="${ADMIN_ALLUVUS_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_muudetud" object="${admin_alluvus}" z="Zh8JQ2ws2p44HfcIfbevhbuavKA="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_sulgeja" object="${admin_alluvus}" z="Ls8cvyeE2Mwnr0Pw1j5AjkEMyx4="/>
+        <field:display date="true" dateTimePattern="${ADMIN_ALLUVUS_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_suletud" object="${admin_alluvus}" z="yPcVRnK/VNxDc1Tg4e495YdI290="/>
+        <field:display field="RIIGI_ADMIN_YKSUS" id="s_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_rIIGI_ADMIN_YKSUS" object="${admin_alluvus}" z="sey6wHzgBuMoUjCH94xsXuMbEcs="/>
+    </page:show>
+</div>

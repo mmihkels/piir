@@ -1,0 +1,24 @@
+<div xmlns:spring="http://www.springframework.org/tags" 
+	xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" 
+	xmlns:jsp="http://java.sun.com/JSP/Page" 
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	version="2.0">
+	
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" htmlEscape="false" />
+  <spring:message var="title" code="welcome_titlepane" arguments="${app_name}" htmlEscape="false" />
+  <util:panel id="title" title="${title}">
+  
+  
+    <h3>
+      Piirirakendus
+    </h3>
+    <p>
+      Margus Mihkelsoo DK41
+      <br />
+      Margus Nairis AK41
+      
+    </p>
+  </util:panel>
+</div>

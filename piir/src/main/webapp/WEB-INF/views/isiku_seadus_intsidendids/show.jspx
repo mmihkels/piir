@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID" object="${isiku_seadus_intsidendid}" path="/isiku_seadus_intsidendids" z="MdLIZ/BaF/oFM6Exc/vJx89UtPs=">
+        <field:display date="true" dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_alates" object="${isiku_seadus_intsidendid}" z="6M2BoqeN+vrJWxoFXEvToTjKwqA="/>
+        <field:display date="true" dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_kuni" object="${isiku_seadus_intsidendid}" z="0xiisXnbL5Bf+vB4/cQlbLj1x5M="/>
+        <field:display field="kirjeldus" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_kirjeldus" object="${isiku_seadus_intsidendid}" z="SizbHpysZ6pEXpLicfV4IvsohTQ="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_kommentaar" object="${isiku_seadus_intsidendid}" z="ZlMxMFayRzWbM5e8koMqH+aM3Bo="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_avaja" object="${isiku_seadus_intsidendid}" z="i30FFAesLhTSlkwWzYoJHdDex30="/>
+        <field:display date="true" dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_avatud" object="${isiku_seadus_intsidendid}" z="CPtKZcjHbmQwfQlSfu1CablTBI0="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_muutja" object="${isiku_seadus_intsidendid}" z="jwM+azKrPKHGjkwkZxWLr6fOSUA="/>
+        <field:display date="true" dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_muudetud" object="${isiku_seadus_intsidendid}" z="ruLVlpVdPE5ayJSauHWkD1TR2/4="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_sulgeja" object="${isiku_seadus_intsidendid}" z="gjDI+jhUO8KSxRBImNgnROzZFpc="/>
+        <field:display date="true" dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_suletud" object="${isiku_seadus_intsidendid}" z="0B6MveuetI1O/HCbN2HDMEu7BMA="/>
+        <field:display field="ISIK_INTSIDENDIS" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_iSIK_INTSIDENDIS" object="${isiku_seadus_intsidendid}" z="MBEIEDnqan17Rp4n2k1H5lm07Bs="/>
+        <field:display field="SEADUSE_PUNKT" id="s_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_sEADUSE_PUNKT" object="${isiku_seadus_intsidendid}" z="x7TtGQCiFKvw+FyIlAHmEpqbyTQ="/>
+    </page:show>
+</div>

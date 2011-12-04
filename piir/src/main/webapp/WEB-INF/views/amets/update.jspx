@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_AMET" idField="amet_id" modelAttribute="AMET" path="/amets" versionField="Version" z="P53sASkUNo+R2qbjh/DfU5p6iO0=">
+        <field:input field="ISCO_kood" id="c_ee_itcollege_i377_team28_entities_AMET_ISCO_kood" max="10" min="1" required="true" z="XmDLh9Mo6qJZhgGWKuzZj5Hmgco="/>
+        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team28_entities_AMET_nimetus" z="JDw+DCpRBcmX7l20pqx/2X3oo/A="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_AMET_kommentaar" z="Vip6n/kLLeTKzPcZAMGHwQU6fp0="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_AMET_avaja" required="true" z="NncuXthCjqjhTQcwmy6gk0XAmbQ="/>
+        <field:datetime dateTimePattern="${AMET_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_AMET_avatud" required="true" z="n2VswnGONDvpScRIn0cl5kW4Qs8="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_AMET_muutja" required="true" z="wlszGUsqds62NjsbMb2i1JklzzQ="/>
+        <field:datetime dateTimePattern="${AMET_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_AMET_muudetud" required="true" z="4MRFy0VFauNfo29cZbjrBaVNi2Y="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_AMET_sulgeja" z="cjULaDuCdgko4bqrF9hfcEEFrdQ="/>
+        <field:datetime dateTimePattern="${AMET_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_AMET_suletud" required="true" z="slSvszEkMt+yb7TikQZkz1wvkZY="/>
+        <field:simple field="aMET_VAEOSAS" id="c_ee_itcollege_i377_team28_entities_AMET_aMET_VAEOSAS" messageCode="entity_reference_not_managed" messageCodeAttribute="A M E T_ V A E O S A S" z="j9yWOhKRcokTu1R1/Brua1QosFU="/>
+        <field:simple field="aMET_PIIRIPUNKTIS" id="c_ee_itcollege_i377_team28_entities_AMET_aMET_PIIRIPUNKTIS" messageCode="entity_reference_not_managed" messageCodeAttribute="A M E T_ P I I R I P U N K T I S" z="Z+Ly4GU+bbsRHIORWue0PsZSaC4="/>
+    </form:update>
+</div>

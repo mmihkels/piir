@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="auastme_muutmines/list">
+        <put-attribute name="body" value="/WEB-INF/views/auastme_muutmines/list.jspx"/>
+    </definition>
+<definition extends="default" name="auastme_muutmines/show">
+        <put-attribute name="body" value="/WEB-INF/views/auastme_muutmines/show.jspx"/>
+    </definition>
+<definition extends="default" name="auastme_muutmines/create">
+        <put-attribute name="body" value="/WEB-INF/views/auastme_muutmines/create.jspx"/>
+    </definition>
+<definition extends="default" name="auastme_muutmines/update">
+        <put-attribute name="body" value="/WEB-INF/views/auastme_muutmines/update.jspx"/>
+    </definition>
+</tiles-definitions>

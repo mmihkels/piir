@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_RUUMIYKSUS" idField="ruumiyksus_id" modelAttribute="RUUMIYKSUS" path="/ruumiyksus" versionField="Version" z="xhoclwG4+34QWCWNxzXjiUjK/IY=">
+        <field:input field="kood" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_kood" max="18" min="1" required="true" z="20de3twTjtzhUUaYw4rom+GV52Q="/>
+        <field:input field="nimetus" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_nimetus" max="18" min="1" required="true" z="6no+qvwYEkDuBz/d9M1z/Ayf678="/>
+        <field:input field="aadress" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_aadress" max="18" min="1" required="true" z="3423vC9M3IJbp2xyGTFpRFV8z+w="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_kommentaar" max="18" min="1" required="true" z="UXHZxtKyuW9jPexI2pfXFBEaKfA="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_avaja" required="true" z="I7owUBNlO6DFVfUHEsFbKf82hxw="/>
+        <field:datetime dateTimePattern="${RUUMIYKSUS_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_avatud" required="true" z="qFTafcwqoSwwlYLvm3AdOwlwa9w="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_muutja" required="true" z="kpmxYSg5dnT6Pn6hGZrpA1bSZto="/>
+        <field:datetime dateTimePattern="${RUUMIYKSUS_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_muudetud" required="true" z="YVNwNe97vMSWOZi4nVSoUnY0VlM="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_sulgeja" z="Pd31i0xe2M17NokeuiDAB0MoLQI="/>
+        <field:datetime dateTimePattern="${RUUMIYKSUS_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_suletud" required="true" z="zJnsEigxJlg5x/HeZMTZXo0Tt1g="/>
+        <field:simple field="vOODIKOHT" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_vOODIKOHT" messageCode="entity_reference_not_managed" messageCodeAttribute="V O O D I K O H T" z="7ZdiBRc6Om35uOF16BC4Jk+HOUQ="/>
+        <field:select field="rUUMIYKSUS" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_rUUMIYKSUS" itemValue="ruumiyksus_id" items="${ruumiyksus}" path="/ruumiyksus" z="sQuooJfnv4EKnHRn+zpxV7m1mzc="/>
+        <field:simple field="rUUMIYKSUS_1" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_rUUMIYKSUS_1" messageCode="entity_reference_not_managed" messageCodeAttribute="R U U M I Y K S U S" z="6ECE0RtgG47SyQg/PR/nDV5fWWg="/>
+        <field:select field="rIIGI_ADMIN_YKSUS" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_rIIGI_ADMIN_YKSUS" itemValue="riigi_admin_yksus_id" items="${riigi_admin_yksus}" path="/riigi_admin_yksus" z="WcvzHw76h1zc0YoVvu5qJcAcBbI="/>
+        <field:select field="rUUMIYKSUSE_LIIK" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_rUUMIYKSUSE_LIIK" itemValue="ruumiyksuse_liik_id" items="${ruumiyksuse_liiks}" path="/ruumiyksuse_liiks" z="i8hFJkdPSml0MMH7UKvRtR1svi8="/>
+    </form:update>
+</div>

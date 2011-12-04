@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_RUUMIYKSUS" items="${ruumiyksus}" z="XafCMQjKsj5ZHvVT11JHrXgi/qo=">
+        <table:table data="${ruumiyksus}" id="l_ee_itcollege_i377_team28_entities_RUUMIYKSUS" path="/ruumiyksus" typeIdFieldName="ruumiyksus_id" z="ffq/YDFgcMAXjz6IuhKiWc8N8VQ=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_kood" property="kood" z="qOVRfigOL8wifV2oYVzJ+iFHzsw="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_nimetus" property="nimetus" z="S31xkzDRAhXC6y2lhs23Y7ZSnXA="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_aadress" property="aadress" z="2/KlDZusflhRTCpiDP65B05gW0E="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_kommentaar" property="kommentaar" z="6/XLltQ59wqNcE7vAOvZx1dhZXI="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_avaja" property="avaja" z="Y9WHxkZFz7M6INba1AzuhNmq510="/>
+            <table:column date="true" dateTimePattern="${RUUMIYKSUS_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_RUUMIYKSUS_avatud" property="avatud" z="o+/jONp5QeZcZi+C8QCyBSbGCd8="/>
+        </table:table>
+    </page:list>
+</div>

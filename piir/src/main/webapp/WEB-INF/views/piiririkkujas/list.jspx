@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_PIIRIRIKKUJA" items="${piiririkkujas}" z="RoJoEc9QOZpC991nVl7EQxCBNRU=">
+        <table:table data="${piiririkkujas}" id="l_ee_itcollege_i377_team28_entities_PIIRIRIKKUJA" path="/piiririkkujas" typeIdFieldName="piiririkkuja_id" z="7xW7Zg+XbG4IwO+cgQ/BlPZaUS8=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIRIKKUJA_isikukood" property="isikukood" z="P0qR77WRQ2MSFJX89UpKkZr+1KM="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIRIKKUJA_eesnimi" property="eesnimi" z="upYWj7nCe/+5mU3Au3CWGSIOhHw="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIRIKKUJA_perek_nimi" property="perek_nimi" z="2sGKAu4d/UdW6Qc8tqBpDY0IeIo="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIRIKKUJA_sugu" property="sugu" z="0yx4kJ0vGRC59LxIWz1e7vWznV0="/>
+            <table:column date="true" dateTimePattern="${PIIRIRIKKUJA_synniaeg_date_format}" id="c_ee_itcollege_i377_team28_entities_PIIRIRIKKUJA_synniaeg" property="synniaeg" z="Ay0e/X7h2EngWOWQFylp0Ogff7g="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIRIKKUJA_kommentaar" property="kommentaar" z="IIWZ6Jf5VRdQX4grxUIrHOtK0nY="/>
+        </table:table>
+    </page:list>
+</div>

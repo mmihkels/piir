@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE" object="${vahtkonna_liige}" path="/vahtkonna_liiges" z="yQo92VC9m4+d1MexqHWE53PGwvE=">
+        <field:display date="true" dateTimePattern="${VAHTKONNA_LIIGE_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_alates" object="${vahtkonna_liige}" z="dy7WTp5Ig1st7Ix+0wgt+8eTMRc="/>
+        <field:display date="true" dateTimePattern="${VAHTKONNA_LIIGE_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_kuni" object="${vahtkonna_liige}" z="XUAaV+19EcehfgmbdxOxAomcPKg="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_kommentaar" object="${vahtkonna_liige}" z="R4eJ077TSbBI5qjYBlaOXblfE2A="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_avaja" object="${vahtkonna_liige}" z="JkRWmxS5c1fF5k90GcaW2o12oNM="/>
+        <field:display date="true" dateTimePattern="${VAHTKONNA_LIIGE_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_avatud" object="${vahtkonna_liige}" z="5RKC61yKnQdkYbDHB882wgMnmOU="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_muutja" object="${vahtkonna_liige}" z="DvEeodmDA9oQm/DKyidNEjFLDqI="/>
+        <field:display date="true" dateTimePattern="${VAHTKONNA_LIIGE_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_muudetud" object="${vahtkonna_liige}" z="QiMVQCD3fXQBoKN7JRcmqUTxOxY="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_sulgeja" object="${vahtkonna_liige}" z="W8+07qZVgokQ+YRgjrOopQmDt+o="/>
+        <field:display date="true" dateTimePattern="${VAHTKONNA_LIIGE_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_suletud" object="${vahtkonna_liige}" z="vq/G+Nvd0UtAJuttaWU0wQfVmWw="/>
+        <field:display field="VAHTKOND" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_vAHTKOND" object="${vahtkonna_liige}" z="Gd865IHi8h5wk7+nQzfH8+3ak8Y="/>
+        <field:display field="PIIRIVALVUR" id="s_ee_itcollege_i377_team28_entities_VAHTKONNA_LIIGE_pIIRIVALVUR" object="${vahtkonna_liige}" z="VXz+v8xas6f9onQvqqB7sisrS9s="/>
+    </page:show>
+</div>

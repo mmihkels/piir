@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT" idField="seaduse_punkt_id" modelAttribute="SEADUSE_PUNKT" path="/seaduse_punkts" versionField="Version" z="V2mMPF5d01s3pgxAZsabCh438Tw=">
+        <field:input field="paragrahv" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_paragrahv" max="18" min="1" required="true" z="MJbUtNE3KRiSzciidmnkz/hfWgg="/>
+        <field:input field="pais" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_pais" max="18" min="1" required="true" z="i0vt+91Dv3tEjB4E62L540ULC+0="/>
+        <field:input field="tekst" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_tekst" max="18" min="1" required="true" z="c4T3zB+U0yxTPe0oUwU8y2WWEDc="/>
+        <field:input field="kehtiv_alates" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_kehtiv_alates" max="18" min="1" required="true" z="IJv/t2seRNJJnRs9L0P6dYGX/X0="/>
+        <field:input field="kehtiv_kuni" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_kehtiv_kuni" max="18" min="1" required="true" z="BGGeXnZ9o3kSKVq79VT8wJCIHWw="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_kommentaar" max="18" min="1" required="true" z="gPKwnIQdnGi+jvW+Bt7GKbdVvt8="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_avaja" required="true" z="ZapwiDWrQ3BpJW50lfyGXgJDTQM="/>
+        <field:datetime dateTimePattern="${SEADUSE_PUNKT_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_avatud" required="true" z="+VjIN2EgUKCnAZy7HVfr+irc6BQ="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_muutja" required="true" z="MkuAs6m3AAMV01fq0VVnepj4I2E="/>
+        <field:datetime dateTimePattern="${SEADUSE_PUNKT_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_muudetud" required="true" z="ZdkpXE5w27/ZqIxpDH/0sEclAVY="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_sulgeja" z="s6LDO3xWJCARLJ0RBvC9Mhtr2Ho="/>
+        <field:datetime dateTimePattern="${SEADUSE_PUNKT_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_suletud" required="true" z="sY/HdWIMNltTn7IByN93BENeBcQ="/>
+        <field:simple field="pIIRIVALVE_SEADUS_INTSIDENDI" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_pIIRIVALVE_SEADUS_INTSIDENDI" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V E_ S E A D U S_ I N T S I D E N D I" z="SrE8K2sia0Crfum3beALj5lGSuk="/>
+        <field:select field="sEADUS" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_sEADUS" itemValue="seadus_id" items="${seadus}" path="/seadus" z="4LbhUhBaCCjPc9IX8oXJ3yx4d4E="/>
+        <field:select field="sEADUSE_PUNKT" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_sEADUSE_PUNKT" itemValue="seaduse_punkt_id" items="${seaduse_punkts}" path="/seaduse_punkts" z="wI9I+1iPSdMij6tFMJCoICSmfzo="/>
+        <field:simple field="sEADUSE_PUNKT_1" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_sEADUSE_PUNKT_1" messageCode="entity_reference_not_managed" messageCodeAttribute="S E A D U S E_ P U N K T" z="1ZtoYdbmqv50FQsn6fCEEi/uNWI="/>
+        <field:simple field="oBJEKTI_SEADUS_INTSIDENDIS" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_oBJEKTI_SEADUS_INTSIDENDIS" messageCode="entity_reference_not_managed" messageCodeAttribute="O B J E K T I_ S E A D U S_ I N T S I D E N D I S" z="62E14szfRYkScCB5+vsUvSqsL6Q="/>
+        <field:simple field="iSIKU_SEADUS_INTSIDENDID" id="c_ee_itcollege_i377_team28_entities_SEADUSE_PUNKT_iSIKU_SEADUS_INTSIDENDID" messageCode="entity_reference_not_managed" messageCodeAttribute="I S I K U_ S E A D U S_ I N T S I D E N D I D" z="NpcOS2tFyKlQ1KTKF9jHyEZetLI="/>
+    </form:update>
+</div>

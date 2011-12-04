@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK" object="${intsidendi_liik}" path="/intsidendi_liiks" z="aXu+RBAk3ZTUgKHieHOldkGk53o=">
+        <field:display field="kood" id="s_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_kood" object="${intsidendi_liik}" z="pgmrLXMzxCXaxsSccfMeMAf5V7U="/>
+        <field:display field="nimetus" id="s_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_nimetus" object="${intsidendi_liik}" z="+mTu6oQ0K0MvRM4AQEnj/iMrJ1U="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_kommentaar" object="${intsidendi_liik}" z="6Vh0W23QMlnkxVmsUOYYRUFSyjI="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_avaja" object="${intsidendi_liik}" z="UZzGsRgNBeFpJ8JPXfHGam38LkY="/>
+        <field:display date="true" dateTimePattern="${INTSIDENDI_LIIK_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_avatud" object="${intsidendi_liik}" z="JXOf6HXYOiB/jThEbU07JhG9LSE="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_muutja" object="${intsidendi_liik}" z="AS3NijHHCi+MJvyMlorVnP1dsGw="/>
+        <field:display date="true" dateTimePattern="${INTSIDENDI_LIIK_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_muudetud" object="${intsidendi_liik}" z="9CA3geB3MsE/ubWLtYWff432aaQ="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_sulgeja" object="${intsidendi_liik}" z="TEseS3u3lp2j20qx5yhOv0qX6V8="/>
+        <field:display date="true" dateTimePattern="${INTSIDENDI_LIIK_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_INTSIDENDI_LIIK_suletud" object="${intsidendi_liik}" z="AY3Edr+lRhKXR9UbsQ3GzJ0I9jw="/>
+    </page:show>
+</div>

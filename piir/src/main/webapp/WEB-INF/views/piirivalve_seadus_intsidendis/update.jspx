@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI" idField="piirivalve_seadus_intsidendi_id" modelAttribute="PIIRIVALVE_SEADUS_INTSIDENDI" path="/piirivalve_seadus_intsidendis" versionField="Version" z="lY/+J63uesNCBFFmwWTydeywk6Y=">
+        <field:datetime dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_alates" required="true" z="D2dezPEcjZ6uflgZ2P72NxnALdc="/>
+        <field:datetime dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_kuni" required="true" z="2dc2M3L7ssZfYOIc0RL84NDCJLE="/>
+        <field:input field="kirjeldus" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_kirjeldus" required="true" z="49uEVxELBQ1kZjdPIIM0IzSRqHM="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_kommentaar" z="0Cuqgovk8f0M6ylQ8rJphCx7vo0="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_avaja" required="true" z="2pUgkxxu/XCpm4T0hH8S+Wx/hNo="/>
+        <field:datetime dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_avatud" required="true" z="ztVBEyQ0O50MFVQC5/xsV1WQwlw="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_muutja" required="true" z="impc19OZQbqcuuJaQtpUhLtX7/8="/>
+        <field:datetime dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_muudetud" required="true" z="c4+55IxTSajH6SuhyXUVs7sYFsE="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_sulgeja" z="NFFqyXhNQ4A3ENpDoeSnRz+9u3Y="/>
+        <field:datetime dateTimePattern="${PIIRIVALVE_SEADUS_INTSIDENDI_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_suletud" required="true" z="fnjUUnUTwO9DPdqLsz+MCw0K7ls="/>
+        <field:select field="pIIRIVALVUR_INTSIDENDIS" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_pIIRIVALVUR_INTSIDENDIS" itemValue="piirivalvur_intsidendis_id" items="${piirivalvur_intsidendiss}" path="/piirivalvur_intsidendiss" z="JFFAcAjswW9GpasiqX85V/BqXbA="/>
+        <field:select field="sEADUSE_PUNKT" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVE_SEADUS_INTSIDENDI_sEADUSE_PUNKT" itemValue="seaduse_punkt_id" items="${seaduse_punkts}" path="/seaduse_punkts" z="h523/cCDdu3wKa825o7MzmMaOTU="/>
+    </form:update>
+</div>

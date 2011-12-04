@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_PIIRIPUNKT" items="${piiripunkts}" z="TwMJTodPAEMEZ+X5NDc2YIYBb4A=">
+        <table:table data="${piiripunkts}" id="l_ee_itcollege_i377_team28_entities_PIIRIPUNKT" path="/piiripunkts" typeIdFieldName="piiripunkt_id" z="P4ht7G+HjA8zM64z4IuU/zcwQFg=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_kood" property="kood" z="q6VMnx0CYLaPiyQi1yLUVyDVoS0="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_nimetus" property="nimetus" z="dG3n1++roG+JVCicnheFQ9XiPSw="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_GPS_longitude" property="GPS_longitude" z="1Zy5BTjHiSGvGxYR0kNwjRi3ENU="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_GPS_latitude" property="GPS_latitude" z="5fUmzDu09LDAXrGSFcSvBbUzMd8="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_korgus_merepinnast" property="korgus_merepinnast" z="40AqGD39ByHmi1zB4mPEd8UVuCM="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_kommentaar" property="kommentaar" z="gAj3QDWypI1nw9zNve8qJjc5Yus="/>
+        </table:table>
+    </page:list>
+</div>

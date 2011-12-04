@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK" idField="seotud_kontaktisik_id" modelAttribute="SEOTUD_KONTAKTISIK" path="/seotud_kontaktisiks" versionField="Version" z="FenmqguhtT5w/EWbUq04bhHLT7w=">
+        <field:datetime dateTimePattern="${SEOTUD_KONTAKTISIK_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_alates" z="PkcUaq5QPKQKF+5nRdtcMGllIgs="/>
+        <field:datetime dateTimePattern="${SEOTUD_KONTAKTISIK_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_kuni" z="WG4pRZ9Y7y37SOTQ6sX+IinUAEg="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_kommentaar" z="I24WNWyx/sEzTFTm/mxxK2uDB08="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_avaja" required="true" z="GwkaoF8Sv0Q+7uT8Fr/ojg/lCCA="/>
+        <field:datetime dateTimePattern="${SEOTUD_KONTAKTISIK_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_avatud" required="true" z="2L1sW7o9+u/nZgX6neO2i7dk2LE="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_muutja" required="true" z="u2/wdXmY4cCNxcTWA5s1XS5D7WY="/>
+        <field:datetime dateTimePattern="${SEOTUD_KONTAKTISIK_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_muudetud" required="true" z="sY0lJJG6k0DrG20uI0yerK7r23s="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_sulgeja" z="RG6NFS1L00V0SP35UFT133kMm4k="/>
+        <field:datetime dateTimePattern="${SEOTUD_KONTAKTISIK_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_suletud" required="true" z="O88Fa3PYONngZc+3jOaoz/5/g6I="/>
+        <field:select field="sUGULUSE_ROLLI_LIIT" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_sUGULUSE_ROLLI_LIIT" itemValue="suguluse_rolli_liit_id" items="${suguluse_rolli_liits}" path="/suguluse_rolli_liits" z="6mqelDjsm8FYx1HMXMSCxnXSBvU="/>
+        <field:select field="pIIRIVALVUR" id="c_ee_itcollege_i377_team28_entities_SEOTUD_KONTAKTISIK_pIIRIVALVUR" itemValue="piirivalvur_id" items="${piirivalvurs}" path="/piirivalvurs" z="/EEGGhJ4Kf0UdXVO+9Gk3fnj00o="/>
+    </form:update>
+</div>

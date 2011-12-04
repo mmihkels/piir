@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    
+    <page:list id="pl_ee_itcollege_i377_team28_entities_PIIRIVALVUR" items="${piirivalvurs}" z="ESQCSIFIHzHr8Hj/x7vOvBoG2pM=">
+   
+        <table:table data="${piirivalvurs}" id="l_ee_itcollege_i377_team28_entities_PIIRIVALVUR" path="/piirivalvurs" typeIdFieldName="piirivalvur_id" z="qYxBeXHOi+NdrgGERA7e2YhmBr0=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_isikukood" property="isikukood" z="x8IUvjHHjXiqMS0+7yw1Gq2Czjk="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_eesnimed" property="eesnimed" z="D+BxHV8k7KDleyfQZp9kfND0u4c="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_perekonnanimi" property="perekonnanimi" z="BA0hOyUcyfsxEl1YIxrkVRwjOpQ="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_sugu" property="sugu" z="w9BsVkpiO6pdlNS3UB6+rzv9anY="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_soduri_kood" property="soduri_kood" z="ylJ9FA7yLBkNo1xpSk+97uNvRRM="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_kommentaar" property="kommentaar" z="pFKe70Cyqw3j2IfINNtStRLXcFo="/>
+        </table:table>
+    </page:list>
+</div>

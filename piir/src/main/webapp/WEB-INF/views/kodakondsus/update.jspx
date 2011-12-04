@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_KODAKONDSUS" idField="kodakondsus_id" modelAttribute="KODAKONDSUS" path="/kodakondsus" versionField="Version" z="hJRlOr4a5cqvqWcMGywLPhzz82k=">
+        <field:input field="isikukood" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_isikukood" max="20" min="1" required="true" z="jq+fJlif/u4YHnalUVAY/IHcqpY="/>
+        <field:datetime dateTimePattern="${KODAKONDSUS_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_alates" z="b2O6Dl5kuSi2Ai4CdbtYzMjJc4w="/>
+        <field:datetime dateTimePattern="${KODAKONDSUS_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_kuni" z="GsswUhBCzOCiucQ39UfAQfduGoY="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_kommentaar" z="o0cVumayCT13+xQvhS5LSFcQGAc="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_avaja" required="true" z="gykLK1cxnvrhESA5cuZDOgfxhXg="/>
+        <field:datetime dateTimePattern="${KODAKONDSUS_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_avatud" required="true" z="H90h+xcThZi92KawQSw4DhqiTHs="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_muutja" required="true" z="byvWKVciKtR1oBV081jijMuDPeQ="/>
+        <field:datetime dateTimePattern="${KODAKONDSUS_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_muudetud" required="true" z="adNqmOL5XyegjpX5SEvK75JLnLM="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_sulgeja" z="d32r26Mq0StSMlOXo8SfzrmHMY8="/>
+        <field:datetime dateTimePattern="${KODAKONDSUS_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_suletud" required="true" z="mooca12gYRgdDB9ftiDTifk8HCY="/>
+        <field:select field="rIIK" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_rIIK" itemValue="riik_id" items="${riiks}" path="/riiks" z="mvWf9FeckYwxbW1eSrIUefq7BsY="/>
+        <field:select field="pIIRIRIKKUJA" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_pIIRIRIKKUJA" itemValue="piiririkkuja_id" items="${piiririkkujas}" path="/piiririkkujas" z="sgGnRIVu52ggV5MTv2KzX+1EONo="/>
+    </form:update>
+</div>

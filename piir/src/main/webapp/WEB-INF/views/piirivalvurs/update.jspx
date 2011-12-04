@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_PIIRIVALVUR" idField="piirivalvur_id" modelAttribute="PIIRIVALVUR" path="/piirivalvurs" versionField="Version" z="kpUxxDu74Ok1JAWCJDt30sZsY3c=">
+        <field:input field="isikukood" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_isikukood" max="20" min="1" required="true" z="JurdOECrEGCGBTpmTkNa57uvICI="/>
+        <field:input field="eesnimed" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_eesnimed" max="25" min="1" required="true" z="M0DmT6Pd8ivOfn2AeIWsynBOmBM="/>
+        <field:textarea field="perekonnanimi" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_perekonnanimi" z="iOCFEBSB+oVmhV3EB+aTkrZsmyA="/>
+        <field:input field="sugu" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_sugu" max="1" min="1" required="true" z="sHMrqnmGbYOCvJevZLFhScwlfTA="/>
+        <field:input field="soduri_kood" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_soduri_kood" max="20" min="1" required="true" z="V4TlvmaDRjk7c4F46ez2QaCd2fk="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_kommentaar" z="4nPjCxTPiLcDhgmBsVCQ1o5BC0M="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_avaja" required="true" z="35HxAfC5tTiuVKCUFiGCpi1Phsg="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_avatud" required="true" z="NbHalR/iJ9yngQ4KlfAyrKfThgA="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_muutja" required="true" z="53EsmXnaZESoQVipQ7tCdJm2jic="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_muudetud" required="true" z="HmbOfSBLP8u9yEuJ7cGTs3u2SGU="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_sulgeja" z="wqo9fwuM9lVMUcTep0j6cE1n3Kk="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_suletud" required="true" z="PhR+2TOWp42zHlmuXfuUMA/mkpo="/>
+        <field:simple field="aUASTME_MUUTMINE" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_aUASTME_MUUTMINE" messageCode="entity_reference_not_managed" messageCodeAttribute="A U A S T M E_ M U U T M I N E" z="wHIhf+K8GNokcIkLnoejQqOLfvo="/>
+        <field:simple field="sEOTUD_KONTAKTISIK" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_sEOTUD_KONTAKTISIK" messageCode="entity_reference_not_managed" messageCodeAttribute="S E O T U D_ K O N T A K T I S I K" z="3ezwxIBRg2Z1US33wML3IZMuB0I="/>
+        <field:simple field="pIIRIVALVURI_KONTAKT" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_pIIRIVALVURI_KONTAKT" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R I_ K O N T A K T" z="OgC44GiMTmAQ1tKhQExa2PXkofE="/>
+        <field:simple field="vAHTKONNA_LIIGE" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_vAHTKONNA_LIIGE" messageCode="entity_reference_not_managed" messageCodeAttribute="V A H T K O N N A_ L I I G E" z="53AS/EkAjhUehun1O81+JFwh2hM="/>
+        <field:simple field="pIIRIVALVUR_VOODIKOHAL" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_pIIRIVALVUR_VOODIKOHAL" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R_ V O O D I K O H A L" z="EZa+qh0xLpiHpX6bu1QzoAZC6zQ="/>
+        <field:simple field="pIIRIVALVUR_INTSIDENDIS" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_pIIRIVALVUR_INTSIDENDIS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R_ I N T S I D E N D I S" z="X6vUt9mKsPX1gH4nLpXHWTUsgg0="/>
+        <field:simple field="pIIRIVALVUR_VAEOSAS" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_pIIRIVALVUR_VAEOSAS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R_ V A E O S A S" z="3WlddOkZmSl2eT6su14FPbCey38="/>
+        <field:simple field="pIIRIVALVUR_PIIRIPUNKTIS" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_pIIRIVALVUR_PIIRIPUNKTIS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R_ P I I R I P U N K T I S" z="Kgr0oQW7lPvhwA4I6Ag5FLeu3pw="/>
+        <field:simple field="pIIRIVALVUR_PIIRIPUNKTIS_1" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_pIIRIVALVUR_PIIRIPUNKTIS_1" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R_ P I I R I P U N K T I S" z="+fxBl5H1Xx1WVZ7zMwzrd7gDaUg="/>
+    </form:update>
+</div>

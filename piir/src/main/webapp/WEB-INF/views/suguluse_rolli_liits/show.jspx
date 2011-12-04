@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT" object="${suguluse_rolli_liit}" path="/suguluse_rolli_liits" z="zlYf2PfeSOHdXuFiJhT46Z7L76c=">
+        <field:display field="nimetus" id="s_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_nimetus" object="${suguluse_rolli_liit}" z="qqk/WMKvvP4zXCkKHSluwa7xb7Y="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_kommentaar" object="${suguluse_rolli_liit}" z="q3UYtC7RRZzNx4oYLVHlAnjLcqQ="/>
+        <field:display field="sugulane_voi_mitte" id="s_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_sugulane_voi_mitte" object="${suguluse_rolli_liit}" z="luZnXC2pP6tu7LGJW8HNET0f0fM="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_avaja" object="${suguluse_rolli_liit}" z="sVTQBeZo4V6XNJVJ3Zf0c1E4+vo="/>
+        <field:display date="true" dateTimePattern="${SUGULUSE_ROLLI_LIIT_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_avatud" object="${suguluse_rolli_liit}" z="WjEN2OmuCncbucw2bODP5tBDmAA="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_muutja" object="${suguluse_rolli_liit}" z="lmo+9pKLwWk6tW5mjh+OgEa08ZM="/>
+        <field:display date="true" dateTimePattern="${SUGULUSE_ROLLI_LIIT_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_muudetud" object="${suguluse_rolli_liit}" z="MGVY5IQIRdohKHDUh4jWsv3Y++I="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_sulgeja" object="${suguluse_rolli_liit}" z="h83CdIlJsqfyO2oTMvTfFUVnVVM="/>
+        <field:display date="true" dateTimePattern="${SUGULUSE_ROLLI_LIIT_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_suletud" object="${suguluse_rolli_liit}" z="Fk6embowDf8mEtBkVy9HavU9yxo="/>
+    </page:show>
+</div>

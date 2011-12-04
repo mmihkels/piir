@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_PIIRIPUNKT" idField="piiripunkt_id" modelAttribute="PIIRIPUNKT" path="/piiripunkts" versionField="Version" z="Hvd1/N+D5/HoUzQKMEddIqErUQM=">
+        <field:input field="kood" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_kood" max="20" min="1" required="true" z="p0rLeNPMb6Ijr45JodboKmVRWxs="/>
+        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_nimetus" required="true" z="MqZIPUiPykDBecqNNwAvpuNCDLg="/>
+        <field:input field="GPS_longitude" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_GPS_longitude" required="true" validationMessageCode="field_invalid_number" z="PlBv1lnqm8oCfKhve4LsTe62Q/0="/>
+        <field:input field="GPS_latitude" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_GPS_latitude" required="true" validationMessageCode="field_invalid_number" z="xfLJKT4dKDajVn5pniDkZM2emdo="/>
+        <field:input field="korgus_merepinnast" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_korgus_merepinnast" required="true" validationMessageCode="field_invalid_number" z="w3M6328fbVecDuoAkhf9/uSkS2A="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_kommentaar" z="MueGB1pJUZ1LeaVznAVWrZa4QNI="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_alates" required="true" z="QZrbnfB5tIg3NWm5r8sCQ/kYLSE="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_kuni" required="true" z="17fb6cssonP0IVlPVAjHU9GhjQo="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_avaja" required="true" z="M7rQXUcunO5HBTDzJ/mSeZzSCwE="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_avatud" required="true" z="Y9WhySgah0DUf5/lQrZM4vS+sUg="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_muutja" required="true" z="UVF+SUCCWVs5CgigzhsCM8RTlZ4="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_muudetud" required="true" z="6arkZwBxjHT/rGVUa2UZszNcBG0="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_sulgeja" z="P2aL+9mCeA+fh/e5sJMWjqnd6IM="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_suletud" required="true" z="LbWntmFltsZTU23gCuVeZzTmNE8="/>
+        <field:simple field="pIIRIPUNKT_ALLUVUS" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_pIIRIPUNKT_ALLUVUS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I P U N K T I_ A L L U V U S" z="fAsMX7UkUPyHrUuBBOFfGraSgoI="/>
+        <field:simple field="pIIRILOIGU_HALDAJA" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_pIIRILOIGU_HALDAJA" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I L O I G U_ H A L D A J A" z="bsHOX2ww74S/Aemp7ujieOdyCIA="/>
+        <field:simple field="pIIRIPUNKT_ORG_YKSUS" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_pIIRIPUNKT_ORG_YKSUS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I P U N K T_ O R G_ Y K S U S" z="xPVXz2k0cmTjcrQe5vflciVH/u0="/>
+        <field:simple field="vAHTKOND" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_vAHTKOND" messageCode="entity_reference_not_managed" messageCodeAttribute="V A H T K O N D" z="wVyu0Ogsx8kp9USCgdq3DIjqgeY="/>
+        <field:select field="aMET_PIIRIPUNKTIS" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_aMET_PIIRIPUNKTIS" itemValue="amet_piiripunktis_id" items="${amet_piiripunktiss}" multiple="true" path="/amet_piiripunktiss" z="RNsSizTjtRx5lyzPKUVOHEBezKI="/>
+        <field:simple field="pIIRIPUNKTI_ALLUVUS" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_pIIRIPUNKTI_ALLUVUS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I P U N K T I_ A L L U V U S" z="rMU43OBreAKVAXaUAykPV4Gi3lE="/>
+    </form:update>
+</div>

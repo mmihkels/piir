@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS" idField="objekti_seadus_intsidendis_id" modelAttribute="OBJEKTI_SEADUS_INTSIDENDIS" path="/objekti_seadus_intsidendiss" versionField="Version" z="lTzBj0+h1ukpI3y2xjtLQB1WWKg=">
+        <field:datetime dateTimePattern="${OBJEKTI_SEADUS_INTSIDENDIS_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_alates" required="true" z="OMhA7nONvXYd3IyfeFbxxT0LGqQ="/>
+        <field:datetime dateTimePattern="${OBJEKTI_SEADUS_INTSIDENDIS_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_kuni" required="true" z="vu4tc6SE4xbVTQb5LXbg4nR2MQ4="/>
+        <field:input field="kirjeldus" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_kirjeldus" required="true" z="Mrgv5KE9pQmPfRkbHePtz6pCb8w="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_kommentaar" z="l0Ca6kUaW8srLLWojP3mINOkV8A="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_avaja" required="true" z="tN3oloYojjeXjTSm0eOA3Q/0xrA="/>
+        <field:datetime dateTimePattern="${OBJEKTI_SEADUS_INTSIDENDIS_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_avatud" required="true" z="OargN1v+4GjotOW6ms1d5hasokk="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_muutja" required="true" z="1NF3AysTvOWmEDb8uuz1UsRM0go="/>
+        <field:datetime dateTimePattern="${OBJEKTI_SEADUS_INTSIDENDIS_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_muudetud" required="true" z="/tTZV4ZMiEuIXnpAjzoKLhBDCV4="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_sulgeja" z="KcPW1M5W3gfqTJ86ZuyD+cv6bvU="/>
+        <field:datetime dateTimePattern="${OBJEKTI_SEADUS_INTSIDENDIS_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_suletud" required="true" z="35tVvrpbW26wy9V4wrC6Lf9jChA="/>
+        <field:select field="oBJEKT_INTSIDENDIS" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_oBJEKT_INTSIDENDIS" itemValue="objekt_intsidendis_id" items="${objekt_intsidendiss}" path="/objekt_intsidendiss" z="X2jHLaga5VST0cJPT1x0pg9IcoY="/>
+        <field:select field="sEADUSE_PUNKT" id="c_ee_itcollege_i377_team28_entities_OBJEKTI_SEADUS_INTSIDENDIS_sEADUSE_PUNKT" itemValue="seaduse_punkt_id" items="${seaduse_punkts}" path="/seaduse_punkts" z="kKHsvgPVTGESB6jkvegUPbtvnp4="/>
+    </form:update>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_ORG_YKSUS" items="${org_yksus}" z="zUSZt5SFQ1cKD7lmigusvh2msuk=">
+        <table:table data="${org_yksus}" id="l_ee_itcollege_i377_team28_entities_ORG_YKSUS" path="/org_yksus" typeIdFieldName="org_yksus_ID" z="jkkWvwP0sBPW+Bifm+RfdNHjTVg=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_ORG_YKSUS_kood" property="kood" z="kGVEpfV5ZIkQDjNfKKh3CcJ93nw="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_ORG_YKSUS_nimetus" property="nimetus" z="EUX8fmwbnz3UHddCyFnqTiVvMws="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_ORG_YKSUS_kommentaar" property="kommentaar" z="/xA1v3ZpZCDGtnzlAt0AsSOoT14="/>
+            <table:column date="true" dateTimePattern="${ORG_YKSUS_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_ORG_YKSUS_alates" property="alates" z="3Js+Bm69qQ9oDg9tqtibisTnDVQ="/>
+            <table:column date="true" dateTimePattern="${ORG_YKSUS_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_ORG_YKSUS_kuni" property="kuni" z="u+mJEZzsGoTye7K2r898rjiLrNc="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_ORG_YKSUS_avaja" property="avaja" z="ogs+G9Yu9ji9y9n+MXFDaP0Aoo0="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_KODAKONDSUS" object="${kodakondsus}" path="/kodakondsus" z="UorlGSJ43pAnaY9IvMtQr/nAe1o=">
+        <field:display field="isikukood" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_isikukood" object="${kodakondsus}" z="YiXpBtALsTpPqo/CbH1poM2XTUE="/>
+        <field:display date="true" dateTimePattern="${KODAKONDSUS_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_alates" object="${kodakondsus}" z="PQFhqqVhH4iN3er8/AtDXTaMiGc="/>
+        <field:display date="true" dateTimePattern="${KODAKONDSUS_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_kuni" object="${kodakondsus}" z="SJW/G0Ntk2Rz6UxrvRDhP6xlCk8="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_kommentaar" object="${kodakondsus}" z="nZCQCNKRHo6Wy/kQwJWVUtPD71s="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_avaja" object="${kodakondsus}" z="+QsetYpbl2Ven4tYwmQ6Q+2klFI="/>
+        <field:display date="true" dateTimePattern="${KODAKONDSUS_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_avatud" object="${kodakondsus}" z="eX8QmwwxQaYlahzOiG4Qx/1S7i8="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_muutja" object="${kodakondsus}" z="wpKYcZaEUbx9UW9rcT8CvcUCK9A="/>
+        <field:display date="true" dateTimePattern="${KODAKONDSUS_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_muudetud" object="${kodakondsus}" z="isPahvnpyPKH1JMWvHRGs6pW4iA="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_sulgeja" object="${kodakondsus}" z="Fug2RiU/zHiXegC0uXTTIW4fUTE="/>
+        <field:display date="true" dateTimePattern="${KODAKONDSUS_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_suletud" object="${kodakondsus}" z="/hvBcEUui/mpvIoACizkihd9/JE="/>
+        <field:display field="RIIK" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_rIIK" object="${kodakondsus}" z="RvAdIsNsb96DD3j3JECOeHtWkZ0="/>
+        <field:display field="PIIRIRIKKUJA" id="s_ee_itcollege_i377_team28_entities_KODAKONDSUS_pIIRIRIKKUJA" object="${kodakondsus}" z="4jX7xMOcRrRAys0ytoFIzBFBy8U="/>
+    </page:show>
+</div>

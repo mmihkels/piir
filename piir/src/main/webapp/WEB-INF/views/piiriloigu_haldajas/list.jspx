@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_PIIRILOIGU_HALDAJA" items="${piiriloigu_haldajas}" z="GI2B2re3J+1l8WWQyfXFzYrQPOU=">
+        <table:table data="${piiriloigu_haldajas}" id="l_ee_itcollege_i377_team28_entities_PIIRILOIGU_HALDAJA" path="/piiriloigu_haldajas" typeIdFieldName="piiriloigu_haldaja_id" z="hEiruieZAMFkusHu8UgcmEGNWj0=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRILOIGU_HALDAJA_kood" property="kood" z="dqrtkX/ipmVEN/HBOO/mFxSSyeE="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRILOIGU_HALDAJA_nimetus" property="nimetus" z="oJPr/NYbHpXgMSGlo5LvbNM9zto="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRILOIGU_HALDAJA_GPS_longitude" property="GPS_longitude" z="Xq9I2HwLILW5ZkA36HOtCl+PomY="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRILOIGU_HALDAJA_GPS_latitude" property="GPS_latitude" z="jai+3stNxYcg6eugFsbKL++PObU="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRILOIGU_HALDAJA_korgus_merepinnast" property="korgus_merepinnast" z="/p/Cc+KlQn+Dl2Lac+Lne0/EOyc="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_PIIRILOIGU_HALDAJA_kommentaar" property="kommentaar" z="iNghtqMYxGpToN07wR3fT0AMUeY="/>
+        </table:table>
+    </page:list>
+</div>

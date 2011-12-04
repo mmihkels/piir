@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_KODAKONDSUS" items="${kodakondsus}" z="x+h2X8Tdv4mEkcWqmZGkSSYnDuU=">
+        <table:table data="${kodakondsus}" id="l_ee_itcollege_i377_team28_entities_KODAKONDSUS" path="/kodakondsus" typeIdFieldName="kodakondsus_id" z="ONTcbXdq6XkX4/6IsC4VJN5BesM=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_isikukood" property="isikukood" z="KkR3fg2ZamceA+95+2jFSYCyFUU="/>
+            <table:column date="true" dateTimePattern="${KODAKONDSUS_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_alates" property="alates" z="+93cx64KmG5iuvPyjM7sFEx+JW0="/>
+            <table:column date="true" dateTimePattern="${KODAKONDSUS_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_kuni" property="kuni" z="T6CI93SdujGPf/9jCcvZ9S1MdAQ="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_kommentaar" property="kommentaar" z="1olOIEK8sCRPzL3Su58+/ESQNYA="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_avaja" property="avaja" z="0kyPFIvkGGVgWN7JVBOoPb21sS0="/>
+            <table:column date="true" dateTimePattern="${KODAKONDSUS_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_KODAKONDSUS_avatud" property="avatud" z="WUXS+QRgI49XeTGkjE94tzfSc1o="/>
+        </table:table>
+    </page:list>
+</div>

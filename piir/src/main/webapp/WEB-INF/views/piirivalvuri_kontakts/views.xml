@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="piirivalvuri_kontakts/list">
+        <put-attribute name="body" value="/WEB-INF/views/piirivalvuri_kontakts/list.jspx"/>
+    </definition>
+<definition extends="default" name="piirivalvuri_kontakts/show">
+        <put-attribute name="body" value="/WEB-INF/views/piirivalvuri_kontakts/show.jspx"/>
+    </definition>
+<definition extends="default" name="piirivalvuri_kontakts/create">
+        <put-attribute name="body" value="/WEB-INF/views/piirivalvuri_kontakts/create.jspx"/>
+    </definition>
+<definition extends="default" name="piirivalvuri_kontakts/update">
+        <put-attribute name="body" value="/WEB-INF/views/piirivalvuri_kontakts/update.jspx"/>
+    </definition>
+</tiles-definitions>

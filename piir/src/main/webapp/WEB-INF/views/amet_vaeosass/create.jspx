@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ee_itcollege_i377_team28_entities_AMET_VAEOSAS" modelAttribute="AMET_VAEOSAS" path="/amet_vaeosass" render="${empty dependencies}" z="Xp6SCvsmTAE5BtQFJqb+5s/jH1M=">
+        <field:datetime dateTimePattern="${AMET_VAEOSAS_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_alates" required="true" z="UUVN6ZL/6mMRuiwjoHQGV9j7evU="/>
+        <field:datetime dateTimePattern="${AMET_VAEOSAS_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_kuni" required="true" z="kioml3Q2x0GfqJAe/tKPe4+kPoA="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_kommentaar" z="HoTwhBv/e2t8F8E4IlXOb77OLTA="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_avaja" required="true" z="wU6C5UPh1CBor7TeDaENM8XQ3IM="/>
+        <field:datetime dateTimePattern="${AMET_VAEOSAS_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_avatud" required="true" z="Ch8AW7MTp3OpnSNfjNma5TZCgbM="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_muutja" required="true" z="b0KyjWEcpKvJ6OF6a2YHdP9x2Kk="/>
+        <field:datetime dateTimePattern="${AMET_VAEOSAS_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_muudetud" required="true" z="78wKtgkeKqs+wclCb2bZRW564Kc="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_sulgeja" z="tjLuzf5fDgLoXIImmeoTDy+VT8g="/>
+        <field:datetime dateTimePattern="${AMET_VAEOSAS_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_suletud" required="true" z="iyo9HE71z4vq+tBYGWX6UJTmSZM="/>
+        <field:select field="vAEOSA" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_vAEOSA" itemValue="vaeosa_ID_id" items="${vaeosas}" path="/vaeosas" z="9RZIcMgmHdkekG1srcYZbOL9hAo="/>
+        <field:select field="aMET" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_aMET" itemValue="amet_id" items="${amets}" path="/amets" z="tXJCJ7tjgDs6UIIJwEtF+7Miycs="/>
+        <field:simple field="pIIRIVALVUR_VAEOSAS" id="c_ee_itcollege_i377_team28_entities_AMET_VAEOSAS_pIIRIVALVUR_VAEOSAS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R_ V A E O S A S" z="+FDVm/d1Qb3AHBBdojFt4NGLei0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ee_itcollege_i377_team28_entities_AMET_VAEOSAS" render="${not empty dependencies}" z="CkPPiPMQzWrK7/Bt/azfy0K07ds="/>
+</div>

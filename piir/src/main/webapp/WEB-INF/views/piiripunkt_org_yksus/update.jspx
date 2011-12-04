@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS" idField="piiripunkt_org_yksus_id" modelAttribute="PIIRIPUNKT_ORG_YKSUS" path="/piiripunkt_org_yksus" versionField="Version" z="QIx/MtgLzlg7chSI7anAeWvHnR8=">
+        <field:input field="kood" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_kood" max="20" min="1" required="true" z="ixFWY4VXmVjKvNYhUqh6PHyDCQA="/>
+        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_nimetus" required="true" z="Oj+Vk8jTqV51d0zhwEF7v1KFagI="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_kommentaar" z="Dj7Xo581pMUaTo/iNwG+1QT+R/s="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_ORG_YKSUS_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_alates" required="true" z="iI/GC0aeTMO4jKC76dLQUw64/0Y="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_ORG_YKSUS_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_kuni" required="true" z="0vOuyZd/lHeHMOJNDsrfyhjRPEo="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_avaja" required="true" z="b+3SUBYRG7bvTD1hWvN20+5am2I="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_ORG_YKSUS_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_avatud" required="true" z="QSy9o+2eE7G9Fvah83vWvdPvM8A="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_muutja" required="true" z="SgHad0FCjc37LDpEjGhPkQTM7S4="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_ORG_YKSUS_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_muudetud" required="true" z="BpHXxjMzw+fOHjXR9fGYTg00KqM="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_sulgeja" z="js9MOKcnRE/7lbfDnujJaVl0a3w="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKT_ORG_YKSUS_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_suletud" required="true" z="lR7eeUJVmEhNXr8n4Bg73lKTY1Y="/>
+        <field:input field="vaeosa_ID_id" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_vaeosa_ID_id" validationMessageCode="field_invalid_integer" z="RMIq/Qjmhl/Ah8v0Ml9lKKYV4ns="/>
+        <field:select field="pIIRIPUNKT" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_pIIRIPUNKT" itemValue="piiripunkt_id" items="${piiripunkts}" path="/piiripunkts" z="TltA1h3jPET1RcPvl5P3A1LLY8Q="/>
+        <field:select field="pIIRIPUNKT_ORG_YKSUS" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_pIIRIPUNKT_ORG_YKSUS" itemValue="piiripunkt_org_yksus_id" items="${piiripunkt_org_yksus}" path="/piiripunkt_org_yksus" z="DI1KaXBAhwqsshu1UAwATDPjZAc="/>
+        <field:simple field="pIIRIPUNKT_ORG_YKSUS_1" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKT_ORG_YKSUS_pIIRIPUNKT_ORG_YKSUS_1" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I P U N K T_ O R G_ Y K S U S" z="+SsUVb2xIGSPuGfu2z+sF7mJ2Fk="/>
+    </form:update>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS" items="${voimalik_alluvus}" z="Vxn/CBdjEglW7hydnryY+LIZG6Q=">
+        <table:table data="${voimalik_alluvus}" id="l_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS" path="/voimalik_alluvus" typeIdFieldName="voimalik_alluvus_id" z="ghTwSR76AelwXq8+PQ7/n0rRMTw=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_kommentaar" property="kommentaar" z="3+9EddaXfF/7/hGbXHvwPqDKWuU="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_avaja" property="avaja" z="Kl9KFEP3JOL5GAFN/LiNGSeJ5d8="/>
+            <table:column date="true" dateTimePattern="${VOIMALIK_ALLUVUS_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_avatud" property="avatud" z="j75Q8lOTECO1zbWp92t7MbJUrEc="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_muutja" property="muutja" z="jPEFLZh+a8+JJTZqqHhH7AdM5q0="/>
+            <table:column date="true" dateTimePattern="${VOIMALIK_ALLUVUS_muudetud_date_format}" id="c_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_muudetud" property="muudetud" z="jJFwobHHo+VumzRsegau+JebQvc="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VOIMALIK_ALLUVUS_sulgeja" property="sulgeja" z="rMF5esDf3B6pdqxLw+U+DYIcJhw="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL" idField="piirivalvur_voodikohal_id" modelAttribute="PIIRIVALVUR_VOODIKOHAL" path="/piirivalvur_voodikohals" versionField="Version" z="IJa28TFwTilax2IERTqzo1ZuKpg=">
+        <field:datetime dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_alates" z="+PULXq7sEwth/YxOnFumxkc30Ic="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_kuni" z="sDXQ7F6DLGyqd2m8rrQhGSsFY38="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_kommentaar" z="wHU0g8d9sIWVVXj7TcifGvYx0HU="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_avaja" required="true" z="uZckHrN9L8BZ7jEHyyuhg+qodzw="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_avatud" required="true" z="esUkFHpytQrbXNxGJTUgjH37xVw="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_muutja" required="true" z="ZlGkVI+p95K5mRdeJeWN+3zEJGw="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_muudetud" required="true" z="k4Ja1XpdgLll0HIN9mYmQ9qBP/U="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_sulgeja" z="UDL8cavXKTqWCRZmn49mC4z6mXA="/>
+        <field:datetime dateTimePattern="${PIIRIVALVUR_VOODIKOHAL_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_suletud" required="true" z="fZ233Tlg4TeYrfNRoVHNEPK02kI="/>
+        <field:select field="pIIRIVALVUR" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_pIIRIVALVUR" itemValue="piirivalvur_id" items="${piirivalvurs}" path="/piirivalvurs" z="+U1XDp6IeWrMQLQiIMz2vTxzMjc="/>
+        <field:select field="vOODIKOHT" id="c_ee_itcollege_i377_team28_entities_PIIRIVALVUR_VOODIKOHAL_vOODIKOHT" itemValue="voodikoht_id" items="${voodikohts}" path="/voodikohts" z="vB4fAfjnBQ7eQNP+Z+x+4T9k0dg="/>
+    </form:update>
+</div>

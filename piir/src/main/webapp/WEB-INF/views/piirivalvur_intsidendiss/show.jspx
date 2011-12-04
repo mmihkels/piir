@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS" object="${piirivalvur_intsidendis}" path="/piirivalvur_intsidendiss" z="5NWuYOeJ4rY371mGx2lcw/zAZ18=">
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_INTSIDENDIS_alates_date_format}" field="alates" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_alates" object="${piirivalvur_intsidendis}" z="cCuxyWiVnW5Cn3PHrQbCF4Iw4b0="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_INTSIDENDIS_kuni_date_format}" field="kuni" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_kuni" object="${piirivalvur_intsidendis}" z="v9O5dS36O3krVS87yFb0szDwKkM="/>
+        <field:display field="kirjeldus" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_kirjeldus" object="${piirivalvur_intsidendis}" z="VWEn1+zfCKC99RS/8dOELMkSaQE="/>
+        <field:display field="kommentaar" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_kommentaar" object="${piirivalvur_intsidendis}" z="p3gUYIagsc/d12BQQ9V2ePgIueU="/>
+        <field:display field="avaja" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_avaja" object="${piirivalvur_intsidendis}" z="VsnLvG/aa5lwiHHKK9K7W8VDpXA="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_INTSIDENDIS_avatud_date_format}" field="avatud" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_avatud" object="${piirivalvur_intsidendis}" z="osAB1rLhosg1dstIs1wzGbkBXZw="/>
+        <field:display field="muutja" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_muutja" object="${piirivalvur_intsidendis}" z="SGHqWa37oIsSxqhnHuXc4iaVko0="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_INTSIDENDIS_muudetud_date_format}" field="muudetud" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_muudetud" object="${piirivalvur_intsidendis}" z="4ROsRWQGZkj3T8rc/GpRXlp7rdE="/>
+        <field:display field="sulgeja" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_sulgeja" object="${piirivalvur_intsidendis}" z="CuyEfmV3ddNdmZjAMNXRtICAbLA="/>
+        <field:display date="true" dateTimePattern="${PIIRIVALVUR_INTSIDENDIS_suletud_date_format}" field="suletud" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_suletud" object="${piirivalvur_intsidendis}" z="SpsY+GzEnyLG0szaTOJOLzLSa+4="/>
+        <field:display field="VAHTKOND_INTSIDENDIS" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_vAHTKOND_INTSIDENDIS" object="${piirivalvur_intsidendis}" z="Sz88WKSLH5V5P4s9dY0qKJL8NKw="/>
+        <field:display field="INTSIDENT" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_iNTSIDENT" object="${piirivalvur_intsidendis}" z="AiDPdmUH/e0ZikYxxtN+Mgh5Zgw="/>
+        <field:display field="PIIRIVALVUR" id="s_ee_itcollege_i377_team28_entities_PIIRIVALVUR_INTSIDENDIS_pIIRIVALVUR" object="${piirivalvur_intsidendis}" z="jDj7hEIrZf6HYvjZm9UojIRvEoY="/>
+    </page:show>
+</div>

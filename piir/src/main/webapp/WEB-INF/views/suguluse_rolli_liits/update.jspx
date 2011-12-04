@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT" idField="suguluse_rolli_liit_id" modelAttribute="SUGULUSE_ROLLI_LIIT" path="/suguluse_rolli_liits" versionField="Version" z="pnKKmRNYUXfzi/g4su9vkZuZ75E=">
+        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_nimetus" required="true" z="ulm2ZFeC2fVmcBDIVa9MWvvRlV8="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_kommentaar" z="nhhwCI6qoepZYeISn63v9eSmoko="/>
+        <field:input field="sugulane_voi_mitte" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_sugulane_voi_mitte" max="1" min="1" required="true" z="W/O+Fyi2sgRUK7KjGCTMn0JGcyU="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_avaja" required="true" z="IDVuki5JuUUpQHULt9e35HRvqR4="/>
+        <field:datetime dateTimePattern="${SUGULUSE_ROLLI_LIIT_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_avatud" required="true" z="WNWiIRyLCt9dq2+cLYIn7L+kP1c="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_muutja" required="true" z="Y+hUEZSlFWGqnZs6z72xFQpDn7k="/>
+        <field:datetime dateTimePattern="${SUGULUSE_ROLLI_LIIT_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_muudetud" required="true" z="qkop+duC3r25l4vKdrg4QF8+x9k="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_sulgeja" z="Tv1IU1LA12nydIAQPsSxC91pL38="/>
+        <field:datetime dateTimePattern="${SUGULUSE_ROLLI_LIIT_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_suletud" required="true" z="zSZzR7xWJcMc8pfDcNkocjYuUVs="/>
+        <field:simple field="sEOTUD_KONTAKTISIK" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_sEOTUD_KONTAKTISIK" messageCode="entity_reference_not_managed" messageCodeAttribute="S E O T U D_ K O N T A K T I S I K" z="n8K9b4KGEN1NKJlQI3jrsvDtOxU="/>
+    </form:update>
+</div>

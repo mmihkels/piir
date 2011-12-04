@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT" items="${suguluse_rolli_liits}" z="7ptDhrGC7Apojv5QKKZ8bQPRm2Y=">
+        <table:table data="${suguluse_rolli_liits}" id="l_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT" path="/suguluse_rolli_liits" typeIdFieldName="suguluse_rolli_liit_id" z="we8ZUMB4K5t/ZsE0xd8xU6AQgEc=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_nimetus" property="nimetus" z="NjL6YQGF+8JuRPpSwfPjWtJHbQQ="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_kommentaar" property="kommentaar" z="Fo3iHm8zCIdVlcE262nnEjMyhms="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_sugulane_voi_mitte" property="sugulane_voi_mitte" z="BUAOtZSx12SCDb9GGa4ch2H2+nE="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_avaja" property="avaja" z="hOY82urDTCucfuODCSguqh2R4Mc="/>
+            <table:column date="true" dateTimePattern="${SUGULUSE_ROLLI_LIIT_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_avatud" property="avatud" z="hmWBe2OGNekbG9IwG8J0mWRdkPM="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_SUGULUSE_ROLLI_LIIT_muutja" property="muutja" z="eItHoRNek+JVTI8pRxvcK6RknOE="/>
+        </table:table>
+    </page:list>
+</div>

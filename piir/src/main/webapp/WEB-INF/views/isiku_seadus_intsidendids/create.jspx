@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID" modelAttribute="ISIKU_SEADUS_INTSIDENDID" path="/isiku_seadus_intsidendids" render="${empty dependencies}" z="14bXs11gR+rUgWYBqqNhlrE/Sok=">
+        <field:datetime dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_alates" required="true" z="zjweGw/Q+2Ov1C9p9vRo3qwRfw8="/>
+        <field:datetime dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_kuni" required="true" z="zC/Cbcjjv1Cdwfzu+Vq5EMpv3SA="/>
+        <field:input field="kirjeldus" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_kirjeldus" required="true" z="g5JohmEBia8hjSBYL8JdixiExwc="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_kommentaar" z="dG3m9P8PUBY7y6QszcwZoEU1bj0="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_avaja" required="true" z="rJve5kNNvQMuLN4Gn5mmx5RAwHs="/>
+        <field:datetime dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_avatud" required="true" z="yagIf0oIFWgASqQiZuXFT+DxNGo="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_muutja" required="true" z="nFBZ6ALbmVfyyRrt2k29yrd+r+k="/>
+        <field:datetime dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_muudetud" required="true" z="4YNHB6/2cHK4RAwyjxaqI2U82Nw="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_sulgeja" z="+SJHb5Jv+HBqZQAKLArUch4LrzI="/>
+        <field:datetime dateTimePattern="${ISIKU_SEADUS_INTSIDENDID_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_suletud" required="true" z="Gm+6Kt4wTD1KRbL0D9nVVp+yybk="/>
+        <field:select field="iSIK_INTSIDENDIS" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_iSIK_INTSIDENDIS" itemValue="isik_intsidendis_id" items="${isik_intsidendiss}" path="/isik_intsidendiss" z="sREYs8WalYW8GPe5CecwztbYkUs="/>
+        <field:select field="sEADUSE_PUNKT" id="c_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID_sEADUSE_PUNKT" itemValue="seaduse_punkt_id" items="${seaduse_punkts}" path="/seaduse_punkts" z="XlKtusHwOilF3y4MVr75P00hGpk="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ee_itcollege_i377_team28_entities_ISIKU_SEADUS_INTSIDENDID" render="${not empty dependencies}" z="xcOPJR5cp6fbaqMWZkVrkBrG1zE="/>
+</div>

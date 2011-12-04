@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK" items="${kontakti_liiks}" z="lKqzkOFsa1rHy8rmRtZtkLHaY6w=">
+        <table:table data="${kontakti_liiks}" id="l_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK" path="/kontakti_liiks" typeIdFieldName="kontakti_liik_id" z="zNfaaKpHK3le+l25RMD+nJTSP2Q=">
+            <table:column id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_nimetus" property="nimetus" z="9UNJmS/+hBkO2bITdI1EuuOHMM0="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_XML_kirjeldus" property="XML_kirjeldus" z="kieeGZW3eteCzKsa3/jkCnogBxA="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_kommentaar" property="kommentaar" z="Whd3n/VjxUl6VnNSIQKu0iZjACs="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_avaja" property="avaja" z="KjZ+UYVPulMEhm6BbXg+rGMkGTc="/>
+            <table:column date="true" dateTimePattern="${KONTAKTI_LIIK_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_avatud" property="avatud" z="SbLGOeuvfZFKcBe0nB3YPklJTLQ="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_KONTAKTI_LIIK_muutja" property="muutja" z="cHXdsXZjz78nrcxmKYVPEY/RZng="/>
+        </table:table>
+    </page:list>
+</div>

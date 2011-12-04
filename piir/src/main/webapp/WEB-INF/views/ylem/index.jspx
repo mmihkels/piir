@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" 
+		xmlns:spring="http://www.springframework.org/tags" 
+		xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" 
+		xmlns:c="http://java.sun.com/jsp/jstl/core"
+		xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+		version="2.0">
+		
+  <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+  <jsp:output omit-xml-declaration="yes"/>
+  <spring:message code="label_ylem_index" htmlEscape="false" var="title"/>
+  <util:panel id="title" title="${title}">
+    <spring:message code="application_name" htmlEscape="false" var="app_name"/>
+    <h3>
+      Ylema graafiku vaade/editor.
+    </h3>
+    
+    Vahtkond: v a h t k o n n a   n i m i 
+    
+    <table style="margin-top:20px; margin-bottom:20px;">
+    	<tr>
+    		<th></th>
+    		<th>Piirilõik</th>
+    		<th>Kommentaar</th>
+    		<th>Algus</th>
+    		<th>Lõpp</th>
+    		<th></th>
+    	</tr>
+    	
+    	<!-- Controllerist peavad tulema vahtkonnad.. -->
+    	<c:forEach var="vk" items="${vahtkonnad}" >
+    			<tr>
+    				<td></td>
+    				<td>Property 'piiriloik' not found </td>
+    				<td>${vk.kommentaar}</td>
+    				<td>${vk.alates}</td>
+    				<td>${vk.kuni}</td>
+    				<td><a href="/muudaVK?vid=${vk.vahtkond_id}" class="button" >Muuda</a></td>
+    			</tr>
+    	</c:forEach>
+    </table>
+    
+    
+    <a href="/lisaVK" class="button">Lisa </a>
+    <a href="/SalvestavServlet" class="button"> Salvesta </a>
+    <a href="/ylem" class="button"> Loobu</a>
+    
+    
+  </util:panel>
+</div>

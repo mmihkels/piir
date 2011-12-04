@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_INTSIDENT" idField="intsident_id" modelAttribute="INTSIDENT" path="/intsidents" versionField="Version" z="gtq9Iwa9bH7jTFEY9FmzaEUCOtg=">
+        <field:input field="kood" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_kood" max="20" min="1" required="true" z="S6Rvw3efPSANbaaKntp/NOJEA1k="/>
+        <field:textarea field="nimetus" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_nimetus" z="V4sX3u2l40+Zg+UQV7Sy9RGgH4M="/>
+        <field:datetime dateTimePattern="${INTSIDENT_toimumise_algus_date_format}" field="toimumise_algus" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_toimumise_algus" z="li1N0L1qdVqv4YotxOr66+SYGwY="/>
+        <field:datetime dateTimePattern="${INTSIDENT_toimumise_lopp_date_format}" field="toimumise_lopp" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_toimumise_lopp" z="sbDOZPfBnvnSvZat7fOxsZJXYXA="/>
+        <field:input field="GPS_longituud" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_GPS_longituud" validationMessageCode="field_invalid_number" z="UmtGvCdYQhblHUGAor7BUbXtPyQ="/>
+        <field:input field="GPS_latituud" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_GPS_latituud" validationMessageCode="field_invalid_number" z="Nvfd2SNF9FoCvXj3leLYohpPkCY="/>
+        <field:input field="kirjeldus" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_kirjeldus" z="ZjuK7BOTYbm4HIJqVU+EF8cP1w4="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_kommentaar" z="j94Cr6LIQvkSzCdu9tCtaP0Xc38="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_avaja" required="true" z="cXhBP4F6PgGzA0hFZFrbk0z2qjc="/>
+        <field:datetime dateTimePattern="${INTSIDENT_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_avatud" required="true" z="SHGOKzs3TK7bnQMD6DFGKhAcavo="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_muutja" required="true" z="hSB6UA619vuyZ3PLSMM5lddHZLA="/>
+        <field:datetime dateTimePattern="${INTSIDENT_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_muudetud" required="true" z="Ue1V6iQY6l7liIQEWHQIhuBnEMs="/>
+        <field:datetime dateTimePattern="${INTSIDENT_sulgeja_date_format}" field="sulgeja" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_sulgeja" z="+vkY2N0MESRngEGOv7GtqpGNcY4="/>
+        <field:datetime dateTimePattern="${INTSIDENT_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_suletud" required="true" z="zKnklFCTpTouXLx99n1CRXkYmes="/>
+        <field:select field="iNTSIDENDI_LIIK" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_iNTSIDENDI_LIIK" itemValue="intsidendi_liik_id" items="${intsidendi_liiks}" path="/intsidendi_liiks" z="XpAQwyRlyLS0eT0kVPyv1FOEtbQ="/>
+        <field:select field="pIIRILOIK" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_pIIRILOIK" itemValue="piiriloik_id" items="${piiriloiks}" path="/piiriloiks" z="sFb+wCR9FYoefxh05ki23nekIio="/>
+        <field:simple field="vAHTKOND_INTSIDENDIS" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_vAHTKOND_INTSIDENDIS" messageCode="entity_reference_not_managed" messageCodeAttribute="V A H T K O N D_ I N T S I D E N D I S" z="8+6iYqCjJ2hNTqTT2Yr7LRZ7HxU="/>
+        <field:simple field="pIIRIVALVUR_INTSIDENDIS" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_pIIRIVALVUR_INTSIDENDIS" messageCode="entity_reference_not_managed" messageCodeAttribute="P I I R I V A L V U R_ I N T S I D E N D I S" z="Zhd3uT4kGHBwig60nCO3j9cPW4Y="/>
+        <field:simple field="iSIK_INTSIDENDIS" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_iSIK_INTSIDENDIS" messageCode="entity_reference_not_managed" messageCodeAttribute="I S I K_ I N T S I D E N D I S" z="mojhYcVaMVlDf1eBy6ilOFFf3a4="/>
+        <field:simple field="oBJEKT_INTSIDENDIS" id="c_ee_itcollege_i377_team28_entities_INTSIDENT_oBJEKT_INTSIDENDIS" messageCode="entity_reference_not_managed" messageCodeAttribute="O B J E K T_ I N T S I D E N D I S" z="558QqpHmdo2j+4NzMWEyYIAHcyo="/>
+    </form:update>
+</div>

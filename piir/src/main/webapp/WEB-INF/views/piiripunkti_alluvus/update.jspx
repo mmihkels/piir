@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS" idField="piiripunkti_alluvus_id" modelAttribute="PIIRIPUNKTI_ALLUVUS" path="/piiripunkti_alluvus" versionField="Version" z="S2CHi/z0x8obyc9nh0NLYNFEBtY=">
+        <field:datetime dateTimePattern="${PIIRIPUNKTI_ALLUVUS_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_alates" z="5XCDiwF5tgThIhV7GAirpfztGms="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKTI_ALLUVUS_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_kuni" z="kF6+8uzunZdvF+ipzweSva2n9G4="/>
+        <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_kommentaar" max="18" min="0" required="true" z="DNZiRn7WGffxHTQ2M4IhxyJyzrQ="/>
+        <field:textarea field="avaja" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_avaja" required="true" z="taQnzTJw73ZnL8gYqgOxWHM7lk8="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKTI_ALLUVUS_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_avatud" required="true" z="vs6sBTbLl3TpBo5IaJ0seyMv97w="/>
+        <field:textarea field="muutja" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_muutja" required="true" z="3vYCpMY9eKyew7vfjF3BlN8GlFo="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKTI_ALLUVUS_muudetud_date_format}" field="muudetud" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_muudetud" required="true" z="rnooJmQHbZnlMAmEwOxbTG7Z1c4="/>
+        <field:textarea field="sulgeja" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_sulgeja" z="F9KS6lQB4Diu+vVdEpck2xfOddo="/>
+        <field:datetime dateTimePattern="${PIIRIPUNKTI_ALLUVUS_suletud_date_format}" field="suletud" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_suletud" required="true" z="T6mDZi5Jmq4JWOPMdz8pS2lDtpw="/>
+        <field:select field="vAEOSA" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_vAEOSA" itemValue="vaeosa_ID_id" items="${vaeosas}" path="/vaeosas" z="uh4KQUVPDpiukOvqda7OZKjnO8k="/>
+        <field:select field="pIIRIPUNKT" id="c_ee_itcollege_i377_team28_entities_PIIRIPUNKTI_ALLUVUS_pIIRIPUNKT" itemValue="piiripunkt_id" items="${piiripunkts}" path="/piiripunkts" z="8Hvy6gYHTrpdPfKNqx+NrRpveDo="/>
+    </form:update>
+</div>
