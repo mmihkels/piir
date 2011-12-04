@@ -57,7 +57,7 @@
     		<th></th><th>Piirilõik</th><th>Vahtkond</th><th>Algus</th><th>Lõpp</th>
     	</tr>
     	
-    	<!-- sisse peaks tooma vahtkonnad koos piirilõikude ja datumitega KUS MEIE pirivalvur on esindet -->
+    	<!-- sisse peaks tooma vahtkonnad koos piirilõikude ja datumitega KUS MEIE piirivalvur on esindet -->
     	<!-- et neist siis tsükliga üle käia ja rida realt tabelisse kanda -->
     	
     </table>

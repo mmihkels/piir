@@ -28,6 +28,12 @@
     	<authentication-provider>
 	    
 	    <password-encoder hash="sha-256"/>
+	    
+	    <!--     
+	    		admin:Aiwei7ya
+    			valvur:valvur
+    			ylem:ylem
+	     -->
 	        <user-service>
 	            <user name="admin" password="d17bd0792f499b6f1f22645c3b700c8da240ea1ee58f13800160626ce35c4c82" authorities="ROLE_ADMIN"/>
 		        <user name="valvur" password="573a56297fee36b0087a5562e445c193c3d3c6f7f3e7204d8b4807e4d8feac0f" authorities="ROLE_VALVUR"/>

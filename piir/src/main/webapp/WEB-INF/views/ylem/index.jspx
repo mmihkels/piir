@@ -12,7 +12,7 @@
   <util:panel id="title" title="${title}">
     <spring:message code="application_name" htmlEscape="false" var="app_name"/>
     <h3>
-      Ylema graafiku vaade/editor.
+      Ülema graafiku vaade/editor.
     </h3>
     
     Vahtkond: v a h t k o n n a   n i m i 

@@ -2,56 +2,53 @@
 <div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" xmlns:sec="http://www.springframework.org/security/tags" xmlns:spring="http://www.springframework.org/tags" id="menu" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <!-- Teie �lesandeks on realiseerida allpool toodud vahtkondade haldamise alams�steemi (*.png) vaated.
+    <!-- Teie ?lesandeks on realiseerida allpool toodud vahtkondade haldamise alams?steemi (*.png) vaated.
 
-			Andmebaasi struktuuri ja �ldised n�uded leiab dokumendist "Projekt (�ldine)".
+			Andmebaasi struktuuri ja ?ldised n?uded leiab dokumendist "Projekt (?ldine)".
 			
 			Seega on meil vaja:
 			
-			piirivalvuri individuaalne t��graafik  
+			piirivalvuri individuaalne t??graafik  
 			
 			
 			
-			vaade konkreetse valvuri t��grafikuga.
-			t��graafiku redaktor  graafiku meisterdaja editor.
+			vaade konkreetse valvuri t??grafikuga.
+			t??graafiku redaktor  graafiku meisterdaja editor.
 			vahtkonna redaktor  vahtkonna 
 			
-			Piiril k�ivad vahtkonnad. 
-			Iga piirivalvur kuulub mingisse vahtkonda. Peab olema n�ha millistes vahtkondades ta on olnud ja millises on ta praegu.�
-			Vahtkonda kuulumisel on piirivalvuril roll (vahtkonna �lem, vahtkonna �lema aset�itja, realiige vms.)
-			Vahtkondadele koostatakse �piiril k�ndimise� graafik. Graafikuj�rgselt k�iakse mingil piiril�igul.
+			Piiril k?ivad vahtkonnad. 
+			Iga piirivalvur kuulub mingisse vahtkonda. Peab olema n?ha millistes vahtkondades ta on olnud ja millises on ta praegu.?
+			Vahtkonda kuulumisel on piirivalvuril roll (vahtkonna ?lem, vahtkonna ?lema aset?itja, realiige vms.)
+			Vahtkondadele koostatakse ?piiril k?ndimise? graafik. Graafikuj?rgselt k?iakse mingil piiril?igul.
 
     -->
     <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
-    
         <sec:authorize access="hasRole('ROLE_ADMIN')">
             <p>
                 <spring:message code="menu_admin_role_message"/>
             </p>
-
-
             <menu:category id="c_piirivalvur" z="sGXZ4GwwZtbGylRvbUXZI4kvKZs=">
                 <menu:item id="i_piirivalvur_new" messageCode="global_menu_new" url="/piirivalvurs?form" z="HRvdB2pvoLqTAPhuPDRzOsT/HpE="/>
                 <menu:item id="i_piirivalvur_list" messageCode="global_menu_list" url="/piirivalvurs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="sy0TKZS9L9wBaTTNXcAXixPtYHw="/>
             </menu:category>
+            <menu:category id="c_vahtkonna_liige" z="psMEScaBUcnT+G+W2QEmzvTaoZo=">
+                <menu:item id="i_vahtkonna_liige_new" messageCode="global_menu_new" url="/vahtkonna_liiges?form" z="kM+n0nuAJGyoZqcVJfAxDmU/ZJg="/>
+                <menu:item id="i_vahtkonna_liige_list" messageCode="global_menu_list" url="/vahtkonna_liiges?page=1&amp;size=${empty param.size ? 10 : param.size}" z="alglFsFtzPZms2ki/eP7J8jk698="/>
+            </menu:category>
+            <menu:category id="c_vahtkond" z="c/riL356fHQk+/mY3ExRqrVhU/4=">
+                <menu:item id="i_vahtkond_new" messageCode="global_menu_new" url="/vahtkonds?form" z="bvt9LhUzxYB+1+sxarsHufGq1po="/>
+                <menu:item id="i_vahtkond_list" messageCode="global_menu_list" url="/vahtkonds?page=1&amp;size=${empty param.size ? 10 : param.size}" z="yjK8dn1Lr/RZ1HbVVrZdpoTkXKI="/>
+            </menu:category>
+            <menu:category id="c_vahtkond_piiriloigul" z="wn3/V9hs+nproHf0Mzac9D8dZvQ=">
+                <menu:item id="i_vahtkond_piiriloigul_new" messageCode="global_menu_new" url="/vahtkond_piiriloiguls?form" z="JAB2eLg7eaj5JaqX6LAatnq/Luk="/>
+                <menu:item id="i_vahtkond_piiriloigul_list" messageCode="global_menu_list" url="/vahtkond_piiriloiguls?page=1&amp;size=${empty param.size ? 10 : param.size}" z="5ac9qCs7Oe1yNkac7CWe0m7mYoU="/>
+            </menu:category>
+            <menu:category id="c_piiriloik" z="qhuVfw5dEZq1X5uopy1zJqUFCxI=">
+                <menu:item id="i_piiriloik_new" messageCode="global_menu_new" url="/piiriloiks?form" z="ASXtPkBwQsEIDr9VmWdhkICO72k="/>
+                <menu:item id="i_piiriloik_list" messageCode="global_menu_list" url="/piiriloiks?page=1&amp;size=${empty param.size ? 10 : param.size}" z="1aNF7PGqbswkfIuw3fVpMrLzk+4="/>
+            </menu:category>
 
-        <menu:category id="c_vahtkonna_liige" z="psMEScaBUcnT+G+W2QEmzvTaoZo=">
-            <menu:item id="i_vahtkonna_liige_new" messageCode="global_menu_new" url="/vahtkonna_liiges?form" z="kM+n0nuAJGyoZqcVJfAxDmU/ZJg="/>
-            <menu:item id="i_vahtkonna_liige_list" messageCode="global_menu_list" url="/vahtkonna_liiges?page=1&amp;size=${empty param.size ? 10 : param.size}" z="alglFsFtzPZms2ki/eP7J8jk698="/>
-        </menu:category>
-        <menu:category id="c_vahtkond" z="c/riL356fHQk+/mY3ExRqrVhU/4=">
-            <menu:item id="i_vahtkond_new" messageCode="global_menu_new" url="/vahtkonds?form" z="bvt9LhUzxYB+1+sxarsHufGq1po="/>
-            <menu:item id="i_vahtkond_list" messageCode="global_menu_list" url="/vahtkonds?page=1&amp;size=${empty param.size ? 10 : param.size}" z="yjK8dn1Lr/RZ1HbVVrZdpoTkXKI="/>
-        </menu:category>
-        <menu:category id="c_vahtkond_piiriloigul" z="wn3/V9hs+nproHf0Mzac9D8dZvQ=">
-            <menu:item id="i_vahtkond_piiriloigul_new" messageCode="global_menu_new" url="/vahtkond_piiriloiguls?form" z="JAB2eLg7eaj5JaqX6LAatnq/Luk="/>
-            <menu:item id="i_vahtkond_piiriloigul_list" messageCode="global_menu_list" url="/vahtkond_piiriloiguls?page=1&amp;size=${empty param.size ? 10 : param.size}" z="5ac9qCs7Oe1yNkac7CWe0m7mYoU="/>
-        </menu:category>
-        <menu:category id="c_piiriloik" z="qhuVfw5dEZq1X5uopy1zJqUFCxI=">
-            <menu:item id="i_piiriloik_new" messageCode="global_menu_new" url="/piiriloiks?form" z="ASXtPkBwQsEIDr9VmWdhkICO72k="/>
-            <menu:item id="i_piiriloik_list" messageCode="global_menu_list" url="/piiriloiks?page=1&amp;size=${empty param.size ? 10 : param.size}" z="1aNF7PGqbswkfIuw3fVpMrLzk+4="/>
-        </menu:category>
-        <!-- 
+
         <menu:category id="c_voimalik_alluvus" z="iEG84WDvdAI9E3wgaaUfr9U9Fug=">
             <menu:item id="i_voimalik_alluvus_new" messageCode="global_menu_new" url="/voimalik_alluvus?form" z="FsA4XSnmfPhAA5/pPZE7AW/Iwm8="/>
             <menu:item id="i_voimalik_alluvus_list" messageCode="global_menu_list" url="/voimalik_alluvus?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Qwh3d7fiKSbUTfRvL1xAMfFc0ek="/>
@@ -223,21 +220,25 @@
        	<menu:category id="c_intsidendi_liik" z="VgFC2w8KkNM7bUKCvnmP7Kafoqs=">
             <menu:item id="i_intsidendi_liik_new" messageCode="global_menu_new" url="/intsidendi_liiks?form" z="YXPjKAIo+2kz5N67bwn1bpPuPMc="/>
         </menu:category>
-        -->
         
-      	</sec:authorize>
-                            
+        </sec:authorize>
+        
+        <!-- Ülema ja valvuri menüüd -->
         <menu:category id="c_controller" z="nj8Dm3hojIyIEyPkwE1UMDIs+K8=">
-        
-        <sec:authorize access="hasRole('ROLE_YLEM')">
-            <menu:item id="i_controller__ylemindex_id" messageCode="global_generic" url="/ylem/index" z="jtPCoDyvzAphvY1x9MWu+H0Sw0w="/>
-          </sec:authorize>
-             
-             <sec:authorize access="hasRole('ROLE_VALVUR')">
-            	<menu:item id="i_controller__valvurindex_id" messageCode="global_generic" url="/valvur/index" z="O43Z42CPXn/G2+MJtJ+A2KGwM3s="/>
+            <sec:authorize access="hasRole('ROLE_YLEM')">
+                <menu:item id="i_controller__ylemindex_id" messageCode="global_generic" url="/ylem/index" z="jtPCoDyvzAphvY1x9MWu+H0Sw0w="/>
+
+            <sec:authorize access="hasRole('ROLE_YLEM')">
+            	<menu:item id="i_controller__ylemvkredaktorindex_id" messageCode="global_generic" url="/ylemvkredaktor/index" z="2jWIU2Cv7ZF629oKE2xgYftN/6I="/>
             </sec:authorize>
             
+           </sec:authorize>
+            <sec:authorize access="hasRole('ROLE_VALVUR')">
+                <menu:item id="i_controller__valvurindex_id" messageCode="global_generic" url="/valvur/index" z="O43Z42CPXn/G2+MJtJ+A2KGwM3s="/>
+            </sec:authorize>
         </menu:category>
-
+     
+        
+        
     </menu:menu>
 </div>
