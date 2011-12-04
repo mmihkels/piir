@@ -11,7 +11,7 @@
   <util:panel id="title" title="${title}">
     <spring:message code="application_name" htmlEscape="false" var="app_name"/>
     <h3>
-      Vahtkonna redaktor. Ülemale.
+      Vahtkonna redaktor. 
     </h3>
     
     <form>
@@ -28,8 +28,8 @@
     	<div>
     		<label>Piiripunkt:</label>
 	    	<select name="piiripnkt" >
-	    		<c:forEach items="piiripunkts" var="pp" >
-	    			<option>${pp}</option> 
+	    		<c:forEach items="${piiripunkts}" var="pp" >
+	    			<option>${pp.nimetus}</option> 
 	    		</c:forEach>   	
 	    	</select>
     	</div>

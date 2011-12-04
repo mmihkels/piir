@@ -44,8 +44,9 @@ public class PIIRIVALVUR implements Serializable {
 	private String eesnimed;
 	@Size(min=1,max=35)
 	private String perekonnanimi;
+
 	@Size(min=1,max=1)
-	private char sugu;
+	private String sugu;
 	@Size(min=1,max=20)
 	private String soduri_kood;
 	private String kommentaar;
@@ -117,11 +118,11 @@ public class PIIRIVALVUR implements Serializable {
 	public void setPerekonnanimi(String perekonnanimi) {
 		this.perekonnanimi = perekonnanimi;
 	}   
-	public char getSugu() {
+	public String getSugu() {
 		return this.sugu;
 	}
 
-	public void setSugu(char sugu) {
+	public void setSugu(String sugu) {
 		this.sugu = sugu;
 	}   
 	public String getSoduri_kood() {
