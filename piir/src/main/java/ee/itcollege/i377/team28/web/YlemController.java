@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import ee.itcollege.i377.team28.entities.PIIRILOIK;
 import ee.itcollege.i377.team28.entities.VAHTKOND;
 
 @RequestMapping("/ylem/**")
@@ -30,16 +31,16 @@ public class YlemController {
     @RequestMapping
     public String index(Model uiModel) {
     	
-    	List<VAHTKOND> vahtkonnad = new ArrayList<VAHTKOND>();
-    	
-    	vahtkonnad = VAHTKOND.findAllVAHTKONDS();
     	/*
-    	for (VAHTKOND vahtkond : vahtkonnad) {
-			
-		}
+    	List<String[]> data;
+    	
+    	for(VAHTKOND vk : VAHTKOND.findAllVAHTKONDS() )
+    	{
+    		data.add(PIIRILOIK_VAHTKONNAS või VAHTKOND_PIIRILOIGUL);
+    	}
     	*/
     	
-    	uiModel.addAttribute("vahtkonnad", vahtkonnad);
+    	uiModel.addAttribute("vahtkonnad",  VAHTKOND.findAllVAHTKONDS());
     	
         return "ylem/index";
     }

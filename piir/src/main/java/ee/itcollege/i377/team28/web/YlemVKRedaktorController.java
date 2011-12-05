@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import ee.itcollege.i377.team28.entities.PIIRILOIK;
 import ee.itcollege.i377.team28.entities.PIIRIPUNKT;
 import ee.itcollege.i377.team28.entities.PIIRIVALVUR;
 
@@ -29,10 +30,10 @@ public class YlemVKRedaktorController {
 
     @RequestMapping
     public String index(Model uiModel) {
-    	List<PIIRIPUNKT> pp = new ArrayList<PIIRIPUNKT>();
-    	pp = PIIRIPUNKT.findAllPIIRIPUNKTS();
+    	List<PIIRILOIK> pp = new ArrayList<PIIRILOIK>();
+    	pp = PIIRILOIK.findAllPIIRILOIKS();
     	
-    	uiModel.addAttribute("piiripunkts",pp);
+    	uiModel.addAttribute("piiriloiks",pp);
     	
         return "ylemvkredaktor/index";
     }

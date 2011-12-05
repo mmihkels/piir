@@ -20,10 +20,10 @@
     <div class="riba">
     Piirivalvur :  n i m i  <select> <!-- tsükliga kõik piirivalvurid sisse -->
     							<c:forEach var="pv" items="${piirivalvurs}" >
-    									<option>${pv.name}</option>
+    									<option>${pv.eesnimed}</option>
     							</c:forEach>		
     						</select>
-    	<a href="/muudaPV?pid=${pv.id}" class="button" > Muuda</a>
+    	<a href="/muudaPV?pid=${pv.piirivalvur_id}" class="button" > Muuda</a>
     					
     </div>
     <br />

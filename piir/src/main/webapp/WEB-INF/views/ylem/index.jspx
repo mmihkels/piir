@@ -27,7 +27,7 @@
     		<th></th>
     	</tr>
     	
-    	<!-- Controllerist peavad tulema vahtkonnad.. -->
+    	<!-- Controllerist peavad tulema massiivid.. -->
     	<c:forEach var="vk" items="${vahtkonnad}" >
     			<tr>
     				<td></td>

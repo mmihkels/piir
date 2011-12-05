@@ -8,6 +8,9 @@
     <h3>
       Andmed peaks nüüd juba kontrolleri poolt panduna Baasis olema..
     </h3>
-    ..aga ei tööta see värk õieti. 
+    
+    ..aga ei töötanud see värk ennem õieti. <br />
+    Nüüd aga hakkas tööle ja segast helperKlassi 'AndmedBaasi.java' ei ole enam tarvis.<br />
+    Create thanks to Kristjan Roosild ja Anttix!      
   </util:panel>
 </div>

@@ -35,7 +35,7 @@ public class ValvurController {
     	
     	//andmebaasist pekas tooma ka kõik vahtkonnad, kus piirivalvur peab olema.
     	/* ja muud andmed
-    	for (VAHTKOND v : VAHTKOND.findAllVAHTKNNAD()) {
+    	for (PIIRIVALVUR p : PIIRIVALVUR.findAllVAHTKONNAD()) {
 			data.add(xxx));
 		}
     	*/
