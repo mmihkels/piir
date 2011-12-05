@@ -8,6 +8,10 @@
             <property name="hibernate.hbm2ddl.auto" value="create"/>
             <property name="hibernate.ejb.naming_strategy" value="org.hibernate.cfg.ImprovedNamingStrategy"/>
             <property name="hibernate.connection.charSet" value="UTF-8"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:C:\Users\margus\i377\Team28\db"/>
+            <property name="javax.persistence.jdbc.user" value="sa"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbcDriver"/>
             <!-- Uncomment the following two properties for JBoss only -->
             <!-- property name="hibernate.validator.apply_to_ddl" value="false" /-->
             <!-- property name="hibernate.validator.autoregister_listeners" value="false" /-->
