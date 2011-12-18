@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.validation.constraints.NotNull;
 
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.roo.addon.entity.RooEntity;
@@ -25,8 +26,12 @@ public class ADMIN_ALLUVUS implements Serializable {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long admin_alluvus_id;
 	
-	private String alates;
-	private String kuni;
+	@NotNull
+	@DateTimeFormat(style="M-")
+	private Date alates;
+	@NotNull
+	@DateTimeFormat(style="M-")
+	private Date kuni;
 	private String kommentaar;
 	private String avaja;
 	@DateTimeFormat(style="M-")
@@ -51,20 +56,25 @@ public class ADMIN_ALLUVUS implements Serializable {
 	public void setAdmin_alluvus_id(Long admin_alluvus_id) {
 		this.admin_alluvus_id = admin_alluvus_id;
 	}   
-	public String getAlates() {
-		return this.alates;
+  
+	public Date getAlates() {
+		return alates;
 	}
-
-	public void setAlates(String alates) {
+	public void setAlates(Date alates) {
 		this.alates = alates;
-	}   
-	public String getKuni() {
-		return this.kuni;
 	}
-
-	public void setKuni(String kuni) {
+	public Date getKuni() {
+		return kuni;
+	}
+	public void setKuni(Date kuni) {
 		this.kuni = kuni;
-	}   
+	}
+	public RIIGI_ADMIN_YKSUS getrIIGI_ADMIN_YKSUS() {
+		return rIIGI_ADMIN_YKSUS;
+	}
+	public void setrIIGI_ADMIN_YKSUS(RIIGI_ADMIN_YKSUS rIIGI_ADMIN_YKSUS) {
+		this.rIIGI_ADMIN_YKSUS = rIIGI_ADMIN_YKSUS;
+	}
 	public String getKommentaar() {
 		return this.kommentaar;
 	}

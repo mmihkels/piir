@@ -3,8 +3,8 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS" modelAttribute="ADMIN_ALLUVUS" path="/admin_alluvus" render="${empty dependencies}" z="EjaAashmGtdqDzIeFyIBwi0SK2g=">
-        <field:input field="alates" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_alates" z="wGFvJU2TKfQ83P02JaVkyJrMkeM="/>
-        <field:input field="kuni" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_kuni" z="EPfR4vL/CjcKiz1TkkZC4aiPu7M="/>
+        <field:datetime dateTimePattern="${ADMIN_ALLUVUS_alates_date_format}" field="alates" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_alates" required="true" z="1nZO0V936OJ645wXYc3K1L6l2O4="/>
+        <field:datetime dateTimePattern="${ADMIN_ALLUVUS_kuni_date_format}" field="kuni" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_kuni" required="true" z="kznUMVkSrdBiEfiWXgdCaK/UpfU="/>
         <field:input field="kommentaar" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_kommentaar" z="VC3mIWRaTEhkuuvNHCLKkztveWE="/>
         <field:input field="avaja" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_avaja" z="CeZ4ubvELrf5qzgv503FLeZol3I="/>
         <field:datetime dateTimePattern="${ADMIN_ALLUVUS_avatud_date_format}" field="avatud" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_avatud" z="F3H7KI+yly4mXj2eha2U4lG8dX8="/>

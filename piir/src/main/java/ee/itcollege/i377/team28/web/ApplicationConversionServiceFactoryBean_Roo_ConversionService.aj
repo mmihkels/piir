@@ -414,14 +414,14 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     
     static class ee.itcollege.i377.team28.web.ApplicationConversionServiceFactoryBean.VAHTKOND_PIIRILOIGULConverter implements Converter<VAHTKOND_PIIRILOIGUL, String> {
         public String convert(VAHTKOND_PIIRILOIGUL vAHTKOND_PIIRILOIGUL) {
-            return new StringBuilder().append(vAHTKOND_PIIRILOIGUL.getAlates()).append(" ").append(vAHTKOND_PIIRILOIGUL.getKuni()).append(" ").append(vAHTKOND_PIIRILOIGUL.getKommentaar()).append(" ").append(vAHTKOND_PIIRILOIGUL.getAvaja()).toString();
+            return new StringBuilder().append(vAHTKOND_PIIRILOIGUL.getAlates()).append(" ").append(vAHTKOND_PIIRILOIGUL.getKuni()).append(" ").append(vAHTKOND_PIIRILOIGUL.getKommentaar()).toString();
         }
         
     }
     
     static class ee.itcollege.i377.team28.web.ApplicationConversionServiceFactoryBean.VAHTKONNA_LIIGEConverter implements Converter<VAHTKONNA_LIIGE, String> {
         public String convert(VAHTKONNA_LIIGE vAHTKONNA_LIIGE) {
-            return new StringBuilder().append(vAHTKONNA_LIIGE.getAlates()).append(" ").append(vAHTKONNA_LIIGE.getKuni()).append(" ").append(vAHTKONNA_LIIGE.getKommentaar()).append(" ").append(vAHTKONNA_LIIGE.getAvaja()).toString();
+            return new StringBuilder().append(vAHTKONNA_LIIGE.getAlates()).append(" ").append(vAHTKONNA_LIIGE.getKuni()).append(" ").append(vAHTKONNA_LIIGE.getKommentaar()).toString();
         }
         
     }

@@ -31,7 +31,11 @@ public class AUASTME_MUUTMINE implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long auastme_muutmine_id;
+	@NotNull
+	@DateTimeFormat(style="M-")
 	private Date alates;
+	@NotNull
+	@DateTimeFormat(style="M-")
 	private Date kuni;
 	private String kommentaar;
 	@NotNull

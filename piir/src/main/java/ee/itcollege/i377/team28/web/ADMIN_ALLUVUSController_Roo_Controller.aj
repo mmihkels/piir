@@ -106,6 +106,8 @@ privileged aspect ADMIN_ALLUVUSController_Roo_Controller {
     }
     
     void ADMIN_ALLUVUSController.addDateTimeFormatPatterns(Model uiModel) {
+        uiModel.addAttribute("ADMIN_ALLUVUS_alates_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
+        uiModel.addAttribute("ADMIN_ALLUVUS_kuni_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
         uiModel.addAttribute("ADMIN_ALLUVUS_avatud_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
         uiModel.addAttribute("ADMIN_ALLUVUS_muudetud_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
         uiModel.addAttribute("ADMIN_ALLUVUS_suletud_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));

@@ -7,9 +7,8 @@
             <table:column date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_alates" property="alates" z="en9OqHbJ1Co/i4WzIsocZv24004="/>
             <table:column date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_kuni" property="kuni" z="qXaEtMUerkazmjCNqJoMkZ7aSbI="/>
             <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_kommentaar" property="kommentaar" z="UHwSGfQFDQQWlRNHdQyCUdgyk/E="/>
-            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_avaja" property="avaja" z="Jt2BN5uDpFL2fwqvllACkMAwQA0="/>
-            <table:column date="true" dateTimePattern="${VAHTKOND_PIIRILOIGUL_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_avatud" property="avatud" z="O/h2SfSZDGSJ0iK5+1Em8eN+7h4="/>
-            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_muutja" property="muutja" z="+8Wgfu/J9hJsH0Q+/ci7I8dM0Ck="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_pIIRILOIK" property="PIIRILOIK" z="e0JzlqbFAdxhtP67w2DPCsQ6i7s="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_VAHTKOND_PIIRILOIGUL_vAHTKOND" property="VAHTKOND" z="uBYzU2jy2FCm+Nc147FUbKzYhkg="/>
         </table:table>
     </page:list>
 </div>

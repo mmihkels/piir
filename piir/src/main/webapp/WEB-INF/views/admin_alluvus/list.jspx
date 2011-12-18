@@ -4,12 +4,12 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:list id="pl_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS" items="${admin_alluvus}" z="8zd2QaT2+PK1mLYBGgM6IrZEShc=">
         <table:table data="${admin_alluvus}" id="l_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS" path="/admin_alluvus" typeIdFieldName="admin_alluvus_id" z="vHfn/IEvP6pQsq3OP8+rlpc6rNQ=">
-            <table:column id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_alates" property="alates" z="ZtIj076h5TA8uMiMAFTv61exTcA="/>
-            <table:column id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_kuni" property="kuni" z="8XiTzJF8kd1iX4rSZHBbDxdfDnE="/>
+            <table:column date="true" dateTimePattern="${ADMIN_ALLUVUS_alates_date_format}" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_alates" property="alates" z="CkDOvBFFkxWCl8L7Z6jbrbCY8+c="/>
+            <table:column date="true" dateTimePattern="${ADMIN_ALLUVUS_kuni_date_format}" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_kuni" property="kuni" z="w0Z6vn8t0TmeMbg/nfh+IegZBZU="/>
             <table:column id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_kommentaar" property="kommentaar" z="K2EL3fkZRibGCSVqGv821gHuA2Y="/>
             <table:column id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_avaja" property="avaja" z="DZHtcdIpVr80x9d3T1dFnLseYRc="/>
             <table:column date="true" dateTimePattern="${ADMIN_ALLUVUS_avatud_date_format}" id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_avatud" property="avatud" z="ROuEvcpQrSR+X5Po1fESjuyz0tQ="/>
-            <table:column id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_muutja" property="muutja" z="hmotdeQUy8zN5UAJXV0dioFsg4A="/>
+            <table:column id="c_ee_itcollege_i377_team28_entities_ADMIN_ALLUVUS_rIIGI_ADMIN_YKSUS" property="RIIGI_ADMIN_YKSUS" z="50k9hNLwSV8Ke1zmciSAFCAeWvQ="/>
         </table:table>
     </page:list>
 </div>

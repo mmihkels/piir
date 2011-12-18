@@ -20,7 +20,8 @@ privileged aspect ADMIN_ALLUVUS_Roo_ToString {
         sb.append("RIIGI_ADMIN_YKSUS: ").append(getRIIGI_ADMIN_YKSUS()).append(", ");
         sb.append("Suletud: ").append(getSuletud()).append(", ");
         sb.append("Sulgeja: ").append(getSulgeja()).append(", ");
-        sb.append("Version: ").append(getVersion());
+        sb.append("Version: ").append(getVersion()).append(", ");
+        sb.append("rIIGI_ADMIN_YKSUS: ").append(getrIIGI_ADMIN_YKSUS());
         return sb.toString();
     }
     

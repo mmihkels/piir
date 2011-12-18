@@ -112,6 +112,8 @@ privileged aspect AUASTME_MUUTMINEController_Roo_Controller {
     }
     
     void AUASTME_MUUTMINEController.addDateTimeFormatPatterns(Model uiModel) {
+        uiModel.addAttribute("AUASTME_MUUTMINE_alates_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
+        uiModel.addAttribute("AUASTME_MUUTMINE_kuni_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
         uiModel.addAttribute("AUASTME_MUUTMINE_avatud_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
         uiModel.addAttribute("AUASTME_MUUTMINE_muudetud_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
         uiModel.addAttribute("AUASTME_MUUTMINE_suletud_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
