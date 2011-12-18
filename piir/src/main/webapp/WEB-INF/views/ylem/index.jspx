@@ -35,15 +35,15 @@
     				<td>${vk.kommentaar}</td>
     				<td>${vk.alates}</td>
     				<td>${vk.kuni}</td>
-    				<td><a href="/muudaVK?vid=${vk.vahtkond_id}" class="button" >Muuda</a></td>
+    				<td><a href="muudaVK?vid=${vk.vahtkond_id}" class="button" >Muuda</a></td>
     			</tr>
     	</c:forEach>
     </table>
     
     
-    <a href="/lisaVK" class="button">Lisa </a>
-    <a href="/SalvestavServlet" class="button"> Salvesta </a>
-    <a href="/ylem" class="button"> Loobu</a>
+    <a href="lisaVK" class="button">Lisa </a>
+    <a href="SalvestavServlet" class="button"> Salvesta </a>
+    <a href="ylem" class="button"> Loobu</a>
     
     
   </util:panel>
