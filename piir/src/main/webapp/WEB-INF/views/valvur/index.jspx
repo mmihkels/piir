@@ -12,18 +12,26 @@
   <spring:message code="label_valvur_index" htmlEscape="false" var="title"/>
   <util:panel id="title" title="${title}">
   
+    <script type="text/javascript">
+  		function getValue() {
+  			var e = document.getElementById("ddlViewBy");
+  			var dbxValue = e.options[e.selectedIndex].value;
+  			document.getElementById("link").href = "../piirivalvurs/" + dbxValue + "?form";
+  		}  		
+  	</script>
+  
     <spring:message code="application_name" htmlEscape="false" var="app_name"/>
     <h3>
       Piirivalvuri graafiku vaade.
     </h3>
     
     <div class="riba">
-    Piirivalvur :  n i m i  <select> <!-- tsükliga kõik piirivalvurid sisse -->
+    Piirivalvur :  n i m i  <select id="ddlViewBy"> <!-- tsükliga kõik piirivalvurid sisse -->
     							<c:forEach var="pv" items="${piirivalvurs}" >
-    									<option>${pv.eesnimed}</option>
+    									<option value="${pv.piirivalvur_id}">${pv.eesnimed}</option>
     							</c:forEach>		
     						</select>
-    	<a href="/muudaPV?pid=${pv.piirivalvur_id}" class="button" > Muuda</a>
+    	<a href="" id="link" onclick="getValue();" class="button" > Muuda</a>
     					
     </div>
     <br />
