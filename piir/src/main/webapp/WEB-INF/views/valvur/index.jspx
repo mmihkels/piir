@@ -16,14 +16,24 @@
     <h3>
       Piirivalvuri graafiku vaade.
     </h3>
+     <script language="JavaScript">
+    function forwardToPiirivalvur(){
+    	var selObj = document.getElementById("piiriv");
+        val = selObj.options[selObj.selectedIndex].value;
+        location.href=val;
+    }
+    </script>
+    
     
     <div class="riba">
-    Piirivalvur :  n i m i  <select> <!-- tsükliga kõik piirivalvurid sisse -->
+    Piirivalvur :  n i m i  <select id ='piiriv'> <!-- tsükliga kõik piirivalvurid sisse -->
     							<c:forEach var="pv" items="${piirivalvurs}" >
-    									<option>${pv.eesnimed}</option>
+    									<spring:url value="/piirivalvurs/${pv.piirivalvur_id}?form" var="uuendaUrl">
+  				    					</spring:url>
+    									<option value="${uuendaUrl}">${pv.eesnimed}</option>
     							</c:forEach>		
     						</select>
-    	<a href="/muudaPV?pid=${pv.piirivalvur_id}" class="button" > Muuda</a>
+    	<input type="BUTTON" value="Muuda" onClick="forwardToPiirivalvur()" />
     					
     </div>
     <br />
