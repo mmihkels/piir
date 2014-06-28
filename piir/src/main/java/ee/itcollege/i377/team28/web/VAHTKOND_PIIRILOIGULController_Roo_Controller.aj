@@ -114,9 +114,6 @@ privileged aspect VAHTKOND_PIIRILOIGULController_Roo_Controller {
     void VAHTKOND_PIIRILOIGULController.addDateTimeFormatPatterns(Model uiModel) {
         uiModel.addAttribute("VAHTKOND_PIIRILOIGUL_alates_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
         uiModel.addAttribute("VAHTKOND_PIIRILOIGUL_kuni_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
-        uiModel.addAttribute("VAHTKOND_PIIRILOIGUL_avatud_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
-        uiModel.addAttribute("VAHTKOND_PIIRILOIGUL_muudetud_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
-        uiModel.addAttribute("VAHTKOND_PIIRILOIGUL_suletud_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
     }
     
     String VAHTKOND_PIIRILOIGULController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

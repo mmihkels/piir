@@ -12,59 +12,72 @@
   <spring:message code="label_valvur_index" htmlEscape="false" var="title"/>
   <util:panel id="title" title="${title}">
   
+  <script type="text/javascript">
+  function getValue() {
+  	var e = document.getElementById("ddlViewBy");
+  	var dbxValue = e.options[e.selectedIndex].value;
+  	document.getElementById("hidden").value = dbxValue;
+  	document.getElementById("link").href = "../piirivalvurs/" + dbxValue + "?form";
+  	
+  }
+  </script>
+  
     <spring:message code="application_name" htmlEscape="false" var="app_name"/>
     <h3>
       Piirivalvuri graafiku vaade.
     </h3>
     
     <div class="riba">
-    Piirivalvur :  n i m i  <select> <!-- tsükliga kõik piirivalvurid sisse -->
+    Piirivalvur :  n i m i  <select id="ddlViewBy"> <!-- tsükliga kõik piirivalvurid sisse -->
     							<c:forEach var="pv" items="${piirivalvurs}" >
-    									<option>${pv.eesnimed}</option>
+    									<option value="${pv.piirivalvur_id}">${pv.eesnimed}</option>
     							</c:forEach>		
     						</select>
-    	<a href="/muudaPV?pid=${pv.piirivalvur_id}" class="button" > Muuda</a>
+    	<a href="" id="link" onclick="getValue();" class="button" > Muuda</a>
     					
     </div>
     <br />
     
-    <form method="post" action="index.jspx" name="dates" >
+    <form method="get" action="" name="dates" >
     	<div>
     		<label>Alates</label>
     		<input name="startdate" type="text" id="D1" />
-    	</div>
-    	
+    	</div>    	
     	<div>
     		<label>Kuni</label>
     		<input name="enddate" type="text" id="D2" />
-    	</div>
-    	
-    	<div class="submit"><input type="submit" value="Värskenda" /></div>
+    	</div>    	
+    	<div>
+    		<input id="hidden" name="pv" type="hidden" value="" />
+    	</div>    	
+    	<div class="submit"><input type="submit" onclick="getValue();" value="Värskenda" /></div>
     </form>
     
-        <script type="text/javascript">
+    <script type="text/javascript">
 	  Spring.addDecoration(new Spring.ElementDecoration({
-	    elementId  : 'D1',
-	    widgetType : 'dijit.form.DateTextBox'}));
+		  elementId  : 'D1',
+		  widgetType : 'dijit.form.DateTextBox'}));
 	  
 	  Spring.addDecoration(new Spring.ElementDecoration({
-		    elementId  : 'D2',
-		    widgetType : 'dijit.form.DateTextBox'}));
+		  elementId  : 'D2',
+		  widgetType : 'dijit.form.DateTextBox'}));
 	</script>
-    
+
     <table style="margin-top:10px;">
     	<tr>
-    		<th></th><th>Piirilõik</th><th>Vahtkond</th><th>Algus</th><th>Lõpp</th>
+    		<th>Piirilõik</th>
+    		<th>Vahtkond</th>
+    		<th>Algus</th>
+    		<th>Lõpp</th>
     	</tr>
-    	
-    	<!-- sisse peaks tooma vahtkonnad koos piirilõikude ja datumitega KUS MEIE piirivalvur on esindet -->
-    	<!-- et neist siis tsükliga üle käia ja rida realt tabelisse kanda -->
-    	
+    	<c:forEach var="vk" items="${vahtkonnad}" >
+    	<tr>
+	    	<td>${vk.VAHTKOND.VAHTKOND_PIIRILOIGUL[0].PIIRILOIK.nimetus}</td>
+	    	<td>${vk.VAHTKOND.nimetus}</td>
+	    	<td>${vk.alates}</td>
+	    	<td>${vk.kuni}</td>
+    	</tr>
+    	</c:forEach>
     </table>
-
-
-
   </util:panel>
 </div>
-
-

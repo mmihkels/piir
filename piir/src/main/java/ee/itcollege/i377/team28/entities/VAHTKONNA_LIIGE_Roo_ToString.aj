@@ -10,15 +10,9 @@ privileged aspect VAHTKONNA_LIIGE_Roo_ToString {
     public String VAHTKONNA_LIIGE.toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Alates: ").append(getAlates()).append(", ");
-        sb.append("Avaja: ").append(getAvaja()).append(", ");
-        sb.append("Avatud: ").append(getAvatud()).append(", ");
         sb.append("Kommentaar: ").append(getKommentaar()).append(", ");
         sb.append("Kuni: ").append(getKuni()).append(", ");
-        sb.append("Muudetud: ").append(getMuudetud()).append(", ");
-        sb.append("Muutja: ").append(getMuutja()).append(", ");
         sb.append("PIIRIVALVUR: ").append(getPIIRIVALVUR()).append(", ");
-        sb.append("Suletud: ").append(getSuletud()).append(", ");
-        sb.append("Sulgeja: ").append(getSulgeja()).append(", ");
         sb.append("VAHTKOND: ").append(getVAHTKOND()).append(", ");
         sb.append("Vahtkonna_liige_id: ").append(getVahtkonna_liige_id()).append(", ");
         sb.append("Version: ").append(getVersion());
